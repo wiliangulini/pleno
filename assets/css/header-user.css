@@ -1,0 +1,93 @@
+header {
+  background-color: #2EA68D !important;
+  height: 70px;
+}
+
+header .container .row nav a img {
+  height: 70px;
+}
+header .container,
+header .container .row,
+header .container .row nav {
+  height: inherit;
+}
+#navbarNavDropdown, #navbarNavDropdown_log {
+  justify-content: flex-end;
+}
+#navbarNavDropdown ul.navbar-nav li.nav-item a.nav-link,
+#navbarNavDropdown_log ul.navbar-nav li.nav-item a.nav-link {
+  font-size: 18px;
+  color: #FFF;
+  font-weight: 400;
+}
+#navbarNavDropdown ul.navbar-nav li.nav-item.butn a.nav-link,
+#navbarNavDropdown_log ul.navbar-nav li.nav-item.butn a.nav-link {
+  color: #2EA68D;
+  background: #FFF;
+  border-radius: 6px;
+  width: 110%;
+  text-align: center;
+  transition: all .5s ease-out;
+  -webkit-transition: all .5s ease-out;
+  -moz-transition: all .5s ease-out;
+  -ms-transition: all .5s ease-out;
+  -o-transition: all .5s ease-out;
+}
+#navbarNavDropdown ul.navbar-nav li.nav-item,
+#navbarNavDropdown_log ul.navbar-nav li.nav-item {
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#navbarNavDropdown ul.navbar-nav li.nav-item a.nav-link img,
+#navbarNavDropdown_log ul.navbar-nav li.nav-item a.nav-link img {
+  width: 57px;
+  height: 57px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+#navbarNavDropdown ul.navbar-nav li.nav-item a.nav-link:hover,
+#navbarNavDropdown_log ul.navbar-nav li.nav-item a.nav-link:hover {
+  border-bottom: 1px solid #FFF;
+}
+#navbarNavDropdown_log {
+  display: none !important;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  header .container .row nav {
+    padding: 0;
+  }
+  header .container .row nav a.navbar-brand {
+    height: inherit;
+    padding: 0;
+  }
+  #button {
+    margin-right: 5%;
+    border: 0;
+    padding: 0;
+  }
+  #button svg {
+    color: #FFF;
+    width:24px;
+    height: 24px;
+  }
+  #navbarNavDropdown {
+    background-color:#2EA68D;
+    z-index: 21;
+  }
+  #navbarNavDropdown ul.navbar-nav li.nav-item, #navbarNavDropdown_log ul.navbar-nav li.nav-item {
+    margin-left: 0;
+    padding-left: 20px;
+    justify-content: flex-start;
+  }
+  #navbarNavDropdown ul.navbar-nav li.nav-item.butn a.nav-link, #navbarNavDropdown_log ul.navbar-nav li.nav-item.butn a.nav-link {
+    color: #fff;
+    background-color: #2EA68D;
+    text-align: left;
+  }
+}

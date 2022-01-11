@@ -1,0 +1,20 @@
+[04-Aug-2021 02:36:41 America/Fortaleza] PHP Warning:  include(enginePHP/verifica_sessao_anjo.php): failed to open stream: No such file or directory in /home3/donjua00/public_html/psico/assets/includes/header-anjo.php on line 1
+[04-Aug-2021 02:36:41 America/Fortaleza] PHP Warning:  include(enginePHP/verifica_sessao_anjo.php): failed to open stream: No such file or directory in /home3/donjua00/public_html/psico/assets/includes/header-anjo.php on line 1
+[04-Aug-2021 02:36:41 America/Fortaleza] PHP Warning:  include(): Failed opening 'enginePHP/verifica_sessao_anjo.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home3/donjua00/public_html/psico/assets/includes/header-anjo.php on line 1
+[04-Aug-2021 02:36:41 America/Fortaleza] PHP Warning:  include(enginePHP/conecta.php): failed to open stream: No such file or directory in /home3/donjua00/public_html/psico/assets/includes/header-anjo.php on line 3
+[04-Aug-2021 02:36:41 America/Fortaleza] PHP Warning:  include(enginePHP/conecta.php): failed to open stream: No such file or directory in /home3/donjua00/public_html/psico/assets/includes/header-anjo.php on line 3
+[04-Aug-2021 02:36:41 America/Fortaleza] PHP Warning:  include(): Failed opening 'enginePHP/conecta.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home3/donjua00/public_html/psico/assets/includes/header-anjo.php on line 3
+[04-Aug-2021 02:36:41 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home3/donjua00/public_html/psico/assets/includes/header-anjo.php:5
+Stack trace:
+#0 {main}
+  thrown in /home3/donjua00/public_html/psico/assets/includes/header-anjo.php on line 5
+[04-Aug-2021 02:36:41 America/Fortaleza] PHP Warning:  include(enginePHP/verifica_sessao_anjo.php): failed to open stream: No such file or directory in /home3/donjua00/public_html/psico/assets/includes/header-anjo.php on line 1
+[04-Aug-2021 02:36:41 America/Fortaleza] PHP Warning:  include(enginePHP/verifica_sessao_anjo.php): failed to open stream: No such file or directory in /home3/donjua00/public_html/psico/assets/includes/header-anjo.php on line 1
+[04-Aug-2021 02:36:41 America/Fortaleza] PHP Warning:  include(): Failed opening 'enginePHP/verifica_sessao_anjo.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home3/donjua00/public_html/psico/assets/includes/header-anjo.php on line 1
+[04-Aug-2021 02:36:41 America/Fortaleza] PHP Warning:  include(enginePHP/conecta.php): failed to open stream: No such file or directory in /home3/donjua00/public_html/psico/assets/includes/header-anjo.php on line 3
+[04-Aug-2021 02:36:41 America/Fortaleza] PHP Warning:  include(enginePHP/conecta.php): failed to open stream: No such file or directory in /home3/donjua00/public_html/psico/assets/includes/header-anjo.php on line 3
+[04-Aug-2021 02:36:41 America/Fortaleza] PHP Warning:  include(): Failed opening 'enginePHP/conecta.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home3/donjua00/public_html/psico/assets/includes/header-anjo.php on line 3
+[04-Aug-2021 02:36:41 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home3/donjua00/public_html/psico/assets/includes/header-anjo.php:5
+Stack trace:
+#0 {main}
+  thrown in /home3/donjua00/public_html/psico/assets/includes/header-anjo.php on line 5

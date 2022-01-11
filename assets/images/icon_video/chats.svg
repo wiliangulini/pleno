@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="58" height="58" viewBox="0 0 58 58">
+  <defs>
+    <filter id="Elipse_4" x="0" y="0" width="58" height="58" filterUnits="userSpaceOnUse">
+      <feOffset dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_88" data-name="Grupo 88" transform="translate(-241 -24)">
+    <g transform="matrix(1, 0, 0, 1, 241, 24)" filter="url(#Elipse_4)">
+      <circle id="Elipse_4-2" data-name="Elipse 4" cx="20" cy="20" r="20" transform="translate(9 3)" fill="#313131"/>
+    </g>
+    <g id="chat" transform="translate(260 37)">
+      <g id="Grupo_16" data-name="Grupo 16" transform="translate(3.69 3.69)">
+        <g id="Grupo_15" data-name="Grupo 15">
+          <path id="Caminho_72" data-name="Caminho 72" d="M104,96H96.615a.615.615,0,1,0,0,1.23H104A.615.615,0,0,0,104,96Z" transform="translate(-96 -96)" fill="#fff"/>
+        </g>
+      </g>
+      <g id="Grupo_18" data-name="Grupo 18" transform="translate(3.69 6.151)">
+        <g id="Grupo_17" data-name="Grupo 17">
+          <path id="Caminho_73" data-name="Caminho 73" d="M101.536,160H96.615a.615.615,0,1,0,0,1.23h4.921a.615.615,0,0,0,0-1.23Z" transform="translate(-96 -160)" fill="#fff"/>
+        </g>
+      </g>
+      <g id="Grupo_20" data-name="Grupo 20">
+        <g id="Grupo_19" data-name="Grupo 19">
+          <path id="Caminho_74" data-name="Caminho 74" d="M13.532,0H2.46A2.463,2.463,0,0,0,0,2.46v12.3a.615.615,0,0,0,.354.557.624.624,0,0,0,.261.058.615.615,0,0,0,.394-.143L4.528,12.3h9a2.463,2.463,0,0,0,2.46-2.46V2.46A2.463,2.463,0,0,0,13.532,0Zm1.23,9.841a1.231,1.231,0,0,1-1.23,1.23H4.306a.614.614,0,0,0-.394.143L1.23,13.449V2.46A1.231,1.231,0,0,1,2.46,1.23H13.532a1.231,1.231,0,0,1,1.23,1.23Z" fill="#fff"/>
+        </g>
+      </g>
+      <g id="Grupo_22" data-name="Grupo 22" transform="translate(4.921 4.921)">
+        <g id="Grupo_21" data-name="Grupo 21">
+          <path id="Caminho_75" data-name="Caminho 75" d="M140.3,128a.615.615,0,0,0,0,1.23,1.231,1.231,0,0,1,1.23,1.23v10.406l-2.076-1.661a.62.62,0,0,0-.384-.134H130.46a1.231,1.231,0,0,1-1.23-1.23v-.615a.615.615,0,0,0-1.23,0v.615a2.463,2.463,0,0,0,2.46,2.46h8.395l2.907,2.326a.616.616,0,0,0,1-.481V130.46A2.463,2.463,0,0,0,140.3,128Z" transform="translate(-128 -128)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

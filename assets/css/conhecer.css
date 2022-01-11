@@ -1,0 +1,82 @@
+section.conhecer {
+  padding: 6% 0% 4%;
+}
+.green {
+  color: #2EA68D !important;
+}
+body {
+  color: #575757;
+}
+.backGreen {
+  color: #2EA68D;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.greenAcc {
+  color: #1CAC8E !important;
+  font-size: 24px;
+  margin-bottom: 0;
+  font-weight: 600;
+}
+section.conhecer .container .row .title {
+  color: #5A5A5A;
+  border-bottom: 1px solid #929292;
+  padding-bottom: 3%;
+}
+section.conhecer .container .row .title h1 {
+  font-size: 42px;
+  font-weight: 600;
+}
+section.conhecer .container .row .sobre {
+  margin-top: 5%;
+}
+section.conhecer .container .row .sobre .sobreInt {
+  margin-bottom: 1.5%;
+}
+section.conhecer.politica .container .row .sobre .sobreInt .s_title p.txt {
+  padding-left: 0% !important;
+}
+section.conhecer .container .row .sobre .sobreInt .s_title p.h4 {
+  margin-left: 1%;
+}
+section.conhecer .container .row .sobre .sobreInt .s_title {
+  margin-bottom: 1.2%;
+}
+p.txt {
+  padding-left: 2.5% !important;
+}
+section.conhecer .container .row .control {
+  width: 80%;
+}
+
+@media only screen and (min-width:320px) and (max-width: 768px) {
+  section.conhecer .container .row.flex-column {
+    align-items: center;
+    justify-content: center;
+    margin-top: 6%;
+  }
+  section.conhecer .container .row.flex-column .control {
+    width: 90%;
+  }
+  section.conhecer .container .row .title h1 {
+    font-size: 35px;
+  }
+  section.conhecer .container .row .title .h5 {
+    font-size: 18px;
+  }
+  p.txt {
+    padding-left: 0 !important;
+    font-size: 14px;
+  }
+  section.conhecer .container .row .sobre .sobreInt .s_title p.h4 {
+    margin-left: 4%;
+  }
+  .greenAcc {
+    font-size: 22px;
+  }
+}

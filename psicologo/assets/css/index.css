@@ -1,0 +1,1082 @@
+/* cards - todos eles */
+.card {
+  border: 0 !important;
+  box-shadow: 0px 2px 9px -1px rgb(0 0 0 / 20%);
+}
+/* end cards - todos eles */
+
+/* balls */
+.ball-red, .ball-green {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  position: absolute;
+}
+.ball-red {
+  background-color: #E17C7C !important;
+}
+.ball-green {
+  background-color: #3EEB45 !important;
+}
+/* end balls */
+
+/* calendario pra agendamento */
+#expandir {
+  cursor: pointer;
+}
+.main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card.calendar {
+  border-top: 3px solid #2EA68D;
+}
+.main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card.calendar .top .control.one {
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+}
+.main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card.calendar .top .control.one .arrows {
+  background: #2EA68D;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.5% 2%;
+  width: 46%;
+  height: 35px;
+}
+.main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card.calendar .top .control.one .arrows .arrowInt.one {
+  border-right: 1px solid #227a68;
+}
+.main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card.calendar .top .control.one .arrows .arrowInt {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card.calendar .top .control.one .date_today {
+  background: #2EA68D;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  width: 36%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 34px;
+}
+.main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card.calendar .top .control.one .date_today p {
+  margin-bottom: 0;
+  font-size: 16px;
+  color: #FFF;
+}
+.main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card.calendar .top .title,
+.main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card.calendar .top .control.two {
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+}
+.main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card.calendar .top .control.two .filter {
+  display: none;
+}
+.main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card.calendar .top .control.two .mais {
+  background: #2EA68D;
+  box-shadow: 0px 0px 4.86111px -0.972222px rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 31px;
+  color: #FFF;
+}
+.main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card.calendar .top .title p {
+  color: #686868;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card.calendar .bottom {
+  display: flex;
+  justify-content: space-between;
+  padding: 1% 1.5%;
+}
+.main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card.calendar .bottom .d-flex {
+  width: 50%;
+}
+.main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card.calendar .bottom .d-flex.expand {
+  display: flex;
+  justify-content: flex-end;
+}
+.main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card.calendar .bottom .d-flex .int {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 12%;
+}
+.main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card.calendar .bottom .d-flex .int .circle {
+  width: 27px;
+  height: 27px;
+  margin-right: 13%;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card.calendar .bottom .d-flex .int p.h6 {
+  color: #686868;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card.calendar .bottom .d-flex .int.one .circle {
+  background: #34C5A7;
+}
+.main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card.calendar .bottom .d-flex .int.two .circle {
+  background: #FFC148;
+}
+#ls-select {
+  margin-right: 4%;
+  background: #FFFFFF;
+  border-radius: 3px;
+  border: 1.9px solid #2EA68D;
+  height: 35px;
+  color: #888686;
+  font-size: 16px;
+  width: 49%;
+  padding: 1% 2% 1% 2%;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+#ls-select {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+#ls-select .control {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+#ls-select .control p#value.txt {
+  margin-bottom: 0;
+}
+#ls-select .down.val {
+  position: absolute;
+  top: 105%;
+  width: 100%;
+  background-color: #FFF;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  box-shadow: 0px 0px 2px rgb(0 0 0 / 30%);
+}
+#ls-select .down.val label {
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 1px solid #DDD;
+}
+
+#ls-select .down.val label,
+#ls-select .down.val label p {
+  margin-bottom: 0;
+}
+#ls-select .down.val label p {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 10;
+  padding: 4%;
+}
+#ls-select .down.val label input.radio {
+  opacity: 0;
+  position: absolute;
+}
+
+/* end calendario pra agendamento */
+
+/*  consultas e plantao */
+.main-content {
+  margin-left: 250px;
+  margin-top: 70px;
+  padding: 1.5% 1%;
+  transition: all .35s ease-in;
+  -webkit-transition: all .35s ease-in;
+  -moz-transition: all .35s ease-in;
+  -ms-transition: all .35s ease-in;
+  -o-transition: all .35s ease-in;
+}
+.main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card.plantao {
+  margin: 3% 0%;
+}
+.main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card .top {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #e9e9e9;
+  padding: 1% 1.5%;
+}
+.main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card .top .d-flex {
+  width: 50%;
+}
+.main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card .top .d-flex.one {
+  justify-content: flex-start;
+  align-items: center;
+}
+.main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card .top .d-flex.two {
+  justify-content: flex-end;
+  align-items: center;
+}
+.main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card.plantao .minhas-consultas .top .d-flex.two {
+  display: none !important;
+}
+.main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card .top .d-flex.one p.h5 {
+  margin-bottom: 0;
+  color: #2EA68D;
+  font-size: 20px;
+  margin-left: 3%;
+  font-weight: 550;
+}
+.main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card .top .d-flex.two p.simbol {
+  padding-top: 4px;
+  width: 35px;
+  height: 35px;
+  background: #2EA68D;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFF;
+  margin-bottom: 0;
+  font-size: 31px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card .mid {
+  padding: 1% 1.5%;
+}
+.main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card .mid p.txt {
+  font-size: 16px;
+  color: #666A69;
+  font-weight: 400;
+}
+.main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card .mid .d-flex {
+  justify-content: space-between;
+}
+.main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card .mid .d-flex .psico,
+.main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card .mid .d-flex .button {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+.main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card.consultas .mid .d-flex .psico .ball-green,
+.main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card.consultas .mid .d-flex .psico .ball-red {
+  bottom: 5%;
+  left: 8%;
+}
+.main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card.plantao .mid .d-flex .psico .ball-green,
+.main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card.plantao .mid .d-flex .psico .ball-red {
+  bottom: 1%;
+  left: 10%;
+}
+.main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card.plantao .button .buttonInt.one a.btn-white {
+  width: 35%;
+  height: 45px;
+  border: 1.5px solid #2EA68D !important;
+  filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.15));
+  -webkit-filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.15));
+}
+.main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card.plantao .mid .d-flex .psico p.name {
+  margin-bottom: 0;
+  color: #686868;
+  font-size: 18px;
+  font-weight: 500;
+}
+.main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card.plantao .mid .d-flex .txt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card.plantao .mid .d-flex .txt p {
+  margin-bottom: 0;
+  text-align: center;
+  color: #686868;
+  font-size: 14px;
+  font-weight: 400;
+  width: 75%;
+}
+.main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card .mid .d-flex .psico img {
+  margin-right: 2.5%;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card .mid .d-flex.one {
+  padding-bottom: 1.5%;
+}
+.main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card .mid .d-flex.two,
+.main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card .mid .d-flex.three {
+  padding: 1.5% 0%;
+}
+.main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card .mid .d-flex.one,
+.main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card .mid .d-flex.two {
+  border-bottom: 1px solid #E1E1E1;
+}
+.main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card .mid .d-flex.one .psico .txt.two {
+  margin-bottom: 0;
+  text-align: left;
+  color: #686868;
+  font-weight: 400;
+  width: 75%;
+  font-size: 15px;
+}
+.main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card .mid .d-flex .psico .txt {
+  width: 100%;
+}
+.main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card .mid .d-flex .psico .txt p.h5 {
+  margin-bottom: 1%;
+}
+.main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card .mid .d-flex .psico .txt p.date {
+  margin-bottom: 0;
+}
+.main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card .mid .d-flex .psico .txt .date img {
+  width: auto;
+  height: auto;
+  margin-right: 1%;
+  position: relative;
+  bottom: 2px;
+}
+.main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card .mid .d-flex .psico {
+  justify-content: flex-start;
+  position: relative;
+}
+.main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card .mid .d-flex .button {
+  justify-content: flex-end;
+}
+.main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card .mid .d-flex .button a.btn-yellow {
+  margin-right: 4%;
+  width: 43%;
+  color: #FFF;
+}
+.main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card .mid .d-flex .button a.btn-gradient,
+.main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card .mid .d-flex .button a.btn-grey {
+  width: 48%;
+}
+.main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card .mid .d-flex .button a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5% 0%;
+  font-weight: 500;
+  font-size: 16px;
+  height: 45px;
+}
+.main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 #cardGreen,
+.main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card .consultas0 {
+  display: none;
+}
+.main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card .mid .d-flex .button .buttonInt {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+.main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card.plantao .mid .d-flex .txt p.name {
+  display: none;
+}
+/*  end consultas e plantao */
+
+/* card green */
+
+#cardGreen.card.green {
+  background: linear-gradient(244.39deg, #2EA68D 3.68%, #22B8AF 93.35%);
+  border-radius: 0px 0px 0px 46px;
+  padding: 2% 3%;
+}
+#cardGreen .control .image {
+  position: relative;
+}
+#cardGreen .control .image .ball-green,
+#cardGreen .control .image .ball-red {
+  right: 14%;
+  bottom: 0%;
+  width: 18px !important;
+  height: 18px !important;
+}
+#cardGreen.card.green .control {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#cardGreen.card.green .control.two {
+  margin: 3%;
+}
+#cardGreen.card.green .control .image img {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+#cardGreen.card.green .control .data p {
+  color: #FFF;
+}
+#cardGreen.card.green .control .data p.txt {
+  margin-bottom: 0;
+  font-weight: 300;
+  font-size: 16px;
+}
+#cardGreen.card.green .control .data p.txt strong {
+  font-weight: 600;
+}
+#cardGreen.card.green .control .data p.h5 {
+  font-size: 20px;
+  margin-bottom: 4%;
+}
+#cardGreen.card.green .control .button {
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 2%;
+}
+#cardGreen.card.green .control .button a.btn-gradient {
+  color: #FFF;
+  padding: 7% 5%;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  font-weight: 500;
+  font-size: 14px;
+  width: 85%;
+  text-align: center;
+}
+
+/* card green */
+
+
+/* consultas0  */
+
+.main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card .consultas0 .mid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1% 0% 2.5%;
+}
+.main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card .consultas0 .mid p.h5 {
+  font-weight: 400;
+  font-size: 20px;
+  color: #666A69;
+  margin: 2% 0%;
+}
+.main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card .consultas0 .mid p.h6 {
+  color: #666A69;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 0% 0% 3%;
+}
+.main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card .consultas0 .mid a.btn-gradient {
+  width: 25%;
+  text-align: center;
+  padding: 1%;
+  font-size: 18px;
+  color: #FFF;
+  font-weight: 500;
+}
+.main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card {
+  box-shadow: 0px 2px 7px -1px rgb(0 0 0 / 20%);
+  border-radius: 5px;
+}
+
+/* 0 consultas marcadas */
+
+/* card status */
+
+.main-content .container-fluid .row .col-sm-4.col-md-4.col-lg-4.col-xl-4 .card .top {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 2px solid #E9E9E9;
+  padding: 2%;
+}
+.main-content .container-fluid .row .col-sm-4.col-md-4.col-lg-4.col-xl-4 .card.status {
+  margin: 5% 0%;
+}
+.main-content .container-fluid .row .col-sm-4.col-md-4.col-lg-4.col-xl-4 .card.status .top svg {
+  color: #2EA68D;
+  font-size: 20px;
+}
+.main-content .container-fluid .row .col-sm-4.col-md-4.col-lg-4.col-xl-4 .card .top p.h4 {
+  color: #2EA68D;
+  margin: 0% 0% 0% 2.5%;
+  font-size: 20px;
+}
+.main-content .container-fluid .row .col-sm-4.col-md-4.col-lg-4.col-xl-4 .card.status .mid {
+  padding: 5%;
+}
+.main-content .container-fluid .row .col-sm-4.col-md-4.col-lg-4.col-xl-4 .card.status .mid .one {
+  background: #f4f4f4;
+  box-shadow: 0px 0px 3px rgb(0 0 0 / 25%);
+  border-radius: 4px 7px 4px 4px;
+  -webkit-border-radius: 4px 7px 4px 4px;
+  -moz-border-radius: 4px 7px 4px 4px;
+  -ms-border-radius: 4px 7px 4px 4px;
+  -o-border-radius: 4px 7px 4px 4px;
+  display: flex;
+  justify-content: space-between;
+  height: 57px;
+  margin-bottom: 3%;
+} 
+.main-content .container-fluid .row .col-sm-4.col-md-4.col-lg-4.col-xl-4 .card.status .mid .one .control {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 3%;
+  width: 85%;
+}
+.main-content .container-fluid .row .col-sm-4.col-md-4.col-lg-4.col-xl-4 .card.status .mid .one .control .img {
+  width: 12%;
+}
+.main-content .container-fluid .row .col-sm-4.col-md-4.col-lg-4.col-xl-4 .card.status .mid .one .control .txt {
+  width: 85%;
+}
+.main-content .container-fluid .row .col-sm-4.col-md-4.col-lg-4.col-xl-4 .card.status .mid .one .control p.h5 {
+  margin-bottom: 0;
+  color: #505050;
+  font-size: 18px;
+}
+.main-content .container-fluid .row .col-sm-4.col-md-4.col-lg-4.col-xl-4 .card.status .mid .avaliacoes.one .control .img img {
+  position: relative;
+  bottom: 4px;
+}
+.main-content .container-fluid .row .col-sm-4.col-md-4.col-lg-4.col-xl-4 .card.status .mid .one .number {
+  width: 12%;
+  background: #FFF;
+  border: 0.5px solid #D9D9D9;
+  border-radius: 0px 4px;
+  -webkit-border-radius: 0px 4px 0px 4px;
+  -moz-border-radius: 0px 4px;
+  -ms-border-radius: 0px 4px;
+  -o-border-radius: 0px 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-content .container-fluid .row .col-sm-4.col-md-4.col-lg-4.col-xl-4 .card.status .mid .one .number p.h4 {
+  color: #2EA68D;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+/* end card status */
+
+
+/* card financeiro */
+
+.main-content .container-fluid .row .col-sm-4.col-md-4.col-lg-4.col-xl-4 .card.financeiro .mid {
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2%;
+}
+.main-content .container-fluid .row .col-sm-4.col-md-4.col-lg-4.col-xl-4 .card.financeiro .mid p.h4 {
+  font-size: 20px;
+  color: #4b4b4b;
+  text-align: center;
+  margin-bottom: 0;
+  font-weight: 550;
+}
+.main-content .container-fluid .row .col-sm-4.col-md-4.col-lg-4.col-xl-4 .card.financeiro .mid p.h6 {
+  color: #4b4b4b;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 350;
+  margin: 4% 0% 5%;
+  width: 75%;
+}
+.main-content .container-fluid .row .col-sm-4.col-md-4.col-lg-4.col-xl-4 .card.financeiro .mid p.h6 span {
+  font-weight: 600 !important;
+}
+.main-content .container-fluid .row .col-sm-4.col-md-4.col-lg-4.col-xl-4 .card.financeiro .mid a.btn-gradient {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  height: 45px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* end card financeiro */
+
+.main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .search,
+.main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card .mid .d-flex .button .point {
+  display: none;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+ 
+  .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card .mid .d-flex .button a.btn-yellow {
+    display: none;
+  }
+  
+  .main-content {
+    margin-left: 0;
+  }
+  /* calendario agendamento */
+
+  #ls-select {
+    font-size: 13px;
+  }
+  .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card.calendar .top .control.two #ls-select.ls-select.status,
+  .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card.calendar .top .control.one .date_today,
+  .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card.calendar .top .title,
+  #expandir {
+    display: none;
+  }
+  #calendarMobile .modal-dialog .modal-content .modal-body .title,
+  #calendarMobile .modal-dialog .modal-content .modal-body #ls-select {
+    display: flex !important;
+  }
+  #calendarMobile .modal-dialog .modal-content .modal-body #ls-select,
+  #calendarMobile .modal-dialog .modal-content .modal-body .title {
+    width: 100%;
+  }
+  #calendarMobile .modal-dialog .modal-content .modal-body .title {
+    justify-content: center;
+  }
+  #calendarMobile .modal-dialog .modal-content {
+    border: 0;
+  }
+  #calendarMobile .modal-dialog .modal-content .modal-header {
+    background-color: #2EA68D;
+  }
+  #calendarMobile .modal-dialog .modal-content .modal-header button.close {
+    color: #FFF;
+    opacity: 1;
+  }
+  #calendarMobile .modal-dialog .modal-content .modal-body #ls-select {
+    margin-top: 8%;
+  }
+  .main-content .container-fluid .row .col-sm-4.col-md-4.col-lg-4.col-xl-4 .card.status,
+  .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card.plantao {
+    margin: 7% 0%;
+  }
+  .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card.calendar .top .control.two .filter {
+    background: #2EA68D;
+    box-shadow: 0px 0px 4.86111px -0.972222px rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    padding-bottom: 4px;
+    margin-right: 10%;
+  }
+  .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card .mid img[height='600'] {
+    height: 300px !important;
+  }
+  .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card.calendar .bottom .d-flex {
+    width: 100%;
+  }
+  .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card.calendar .top .control.one {
+    width: 50%;
+  }
+  .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card.calendar .top .control.one .arrows {
+    width: 75%;
+  }
+  .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card.calendar .bottom .d-flex .int {
+    width: 35%;
+    margin-left: 3%;
+    padding: 2% 0%;
+  }
+  .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card.calendar .bottom .d-flex .int .circle {
+    width: 20px;
+    height: 20px;
+  }
+
+  /* end calendario agendamento */
+
+  /* consultas */
+  .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card .mid .d-flex .button a.btn-gradient,
+  .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card .mid .d-flex .button a.btn-grey {
+    width: 100%;
+    padding: 4%;
+    font-size: 13px;
+  }
+  .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card .mid .d-flex .button .buttonInt {
+    width: 85%;
+    flex-direction: column-reverse;
+    display: flex;
+  }
+  .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card .mid .d-flex .psico img {
+    width: 48px;
+    height: 48px;
+  }
+  .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 #cardGreen {
+    display: flex;
+    margin-top: 3%;
+    margin-bottom: 7%;
+  }
+  .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .search {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 7%;
+  }
+  .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .search a.btn-gradient {
+    width: 100%;
+    padding: 3%;
+    text-align: center;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card .top {
+    padding: 3% 2%;
+  }
+  .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card.consultas .mid .d-flex .psico .ball-green, .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card.consultas .mid .d-flex .psico .ball-red {
+    bottom: 3%;
+    left: 17%;
+  }
+  .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card .mid .d-flex {
+    align-items: center;
+  }
+  .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card .top .d-flex.one {
+    width: 85%;
+  }
+  .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card .top .d-flex.two {
+    width: 15%;
+  }
+  .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card .top .d-flex.one img {
+    height: 25.48px;
+  }
+  .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card .top .d-flex.one p.h5 {
+    font-size: 16px;
+  }
+  .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card .top .d-flex.two p.simbol {
+    width: 28px;
+    height: 28px;
+    padding: 3px 2px 0px 0px;
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card .mid p.txt {
+    margin: 5px 0px 7px 0px;
+    font-size: 13px;
+  }
+  .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card .mid .d-flex .psico .txt p.h5 {
+    font-size: 14px;
+  }
+  .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card .mid .d-flex .psico .txt p.date {
+    font-size: 12px;
+  }
+  .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card .mid .d-flex .button .point {
+    display: flex;
+  }
+  .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card .mid .d-flex .button {
+    justify-content: space-between;
+    width: 43%;
+    margin-right: 4px;
+  }
+  .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card.plantao .mid .d-flex.one .button.one {
+    justify-content: flex-end;
+  }
+  .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card .mid .d-flex .txt {
+    margin-left: 2%;
+  }
+  .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card .mid .d-flex.two, .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card .mid .d-flex.three {
+    padding: 4.5% 0%;
+  }
+  .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card .mid .d-flex.one {
+    padding: 4.5% 0% 4% 2%;
+  }
+  .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card .mid .d-flex .button a.btn-yellow {
+    width: 100%;
+    margin-top: 8%;
+    font-size: 13px;
+  }
+  .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card.plantao .mid .d-flex .psico .ball-green, .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card.plantao .mid .d-flex .psico .ball-red {
+    bottom: -1%;
+    left: 63%;
+  }
+  .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card.plantao .mid .d-flex .psico p.name {
+    display: none;
+  }
+  .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card .mid .d-flex .psico {
+    width: 23%;
+  }
+  .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card.plantao .mid .d-flex .txt {
+    flex-direction: column;
+  }
+  .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card.plantao .button .buttonInt.one a.btn-white {
+    width: 100%;
+    font-size: 13px;
+  }
+  .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card.plantao .mid .d-flex .txt p.name {
+    display: flex;
+    width: 100%;
+    color: #686868;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card.plantao .mid .d-flex .txt p.textoInt {
+    font-size: 12px;
+    font-weight: 300;
+    width: 100%;
+  }
+  .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card.consultas .minhas-consultas .mid .d-flex.one .psico {
+    width: 60%;
+  }
+  .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card.consultas .minhas-consultas .mid .d-flex.one .txt p.h5 {
+    font-size: 16px;
+  }
+  .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card.consultas .minhas-consultas .mid .d-flex.one .txt p.date {
+    font-size: 12px;
+  }
+  /* end consultas */
+
+  .main-content .container-fluid .row .col-sm-4.col-md-4.col-lg-4.col-xl-4 #cardGreen {
+    display: none;
+  }
+
+
+  /* card green */
+
+  #cardGreen.card.green .control .image img {
+    width: 66px;
+    height: 66px;
+  }
+  #cardGreen.card.green .control .logo img {
+    height: 46px;
+  }
+  #cardGreen.card.green .control .data p.h5 {
+    font-size: 16px;
+  }
+  #cardGreen.card.green .control .data p.txt {
+    font-size: 14px;
+  }
+  #cardGreen.card.green .control .button {
+    width: 40%;
+  }
+
+  /* card green */
+
+  /* status card */
+
+  .main-content .container-fluid .row .col-sm-4.col-md-4.col-lg-4.col-xl-4 .card.status .mid .one .control p.h5,
+  .main-content .container-fluid .row .col-sm-4.col-md-4.col-lg-4.col-xl-4 .card.financeiro .mid a.btn-gradient {
+    font-size: 16px;
+  }
+  .main-content .container-fluid .row .col-sm-4.col-md-4.col-lg-4.col-xl-4 .card.status .mid .one .control .txt {
+    padding-left: 7.5%;
+  }
+  .main-content .container-fluid .row .col-sm-4.col-md-4.col-lg-4.col-xl-4 .card.status .mid .one {
+    height: 49px;
+  }
+  .main-content .container-fluid .row .col-sm-4.col-md-4.col-lg-4.col-xl-4 .card.status .mid .one .number p.h4 {
+    font-size: 18px;
+  }
+  .main-content .container-fluid .row .col-sm-4.col-md-4.col-lg-4.col-xl-4 .card.status .mid .one .number {
+    width: 20%;
+  }
+  .main-content .container-fluid .row .col-sm-4.col-md-4.col-lg-4.col-xl-4 .card.status .mid .one .control {
+    width: 80%;
+  }
+  .main-content .container-fluid .row .col-sm-4.col-md-4.col-lg-4.col-xl-4 .card .top {
+    padding: 2% 4%;
+  }
+  .main-content .container-fluid .row .col-sm-4.col-md-4.col-lg-4.col-xl-4 .card.financeiro .mid p.h6 {
+    font-size: 14px;
+    width: 100%;
+    margin: 7% 0% 8%;
+  }
+
+  /* end status card */
+}
+
+@media only screen and (min-width: 1371px) and (max-width: 1500px) {
+  .main-content .container-fluid .row .col-sm-4.col-md-4.col-lg-4.col-xl-4 .card.status .mid .one .control .img {
+    width: 18%;
+  }
+  .main-content .container-fluid .row .col-sm-4.col-md-4.col-lg-4.col-xl-4 .card.status .mid .one .control .txt {
+    width: 80%;
+  }
+  .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card.calendar .bottom .d-flex .int {
+    width: 17%;
+  }
+  #cardGreen.card.green .control .button {
+    width: 38%;
+  }
+  .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card.plantao .mid .d-flex .txt p {
+    width: 80%;
+  }
+  .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card .mid .d-flex .button a.btn-gradient,
+  .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card .mid .d-flex .button a.btn-grey,
+  .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card .mid .d-flex .button a.btn-yellow {
+    width: 43%;
+  }
+  .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card.plantao .mid .d-flex .psico .ball-green, .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card.plantao .mid .d-flex .psico .ball-red {
+    bottom: -4%;
+    left: 15%;
+  }
+  .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card.consultas .mid .d-flex .psico .ball-green, .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card.consultas .mid .d-flex .psico .ball-red {
+    left: 11%;
+    bottom: -4%;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1370px) {
+  .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card .mid .d-flex .button a.btn-yellow,
+  .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card .mid .d-flex .button a.btn-gradient, 
+  .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card .mid .d-flex .button a.btn-grey {
+    width: 40%;
+    padding: 2%;
+  }
+  #cardGreen.card.green .control .button {
+    width: 32%;
+    padding-right: 0;
+  }
+  #cardGreen.card.green .control .button a.btn-gradient {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .main-content .container-fluid .row {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+  .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8,
+  .main-content .container-fluid .row .col-sm-4.col-md-4.col-lg-4.col-xl-4 {
+    max-width: 90% !important;
+  }
+  #cardGreen.card.green .control .logo img {
+    height: 60px !important;
+  }
+  #cardGreen.card.green .control .button a.btn-gradient {
+    padding: 5% !important;
+  }
+  .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card .top .d-flex.one p.h5 ,
+  #cardGreen.card.green .control .data p.h5 {
+    font-size: 20px !important;
+  }
+  #cardGreen.card.green .control .data p.txt {
+    font-size: 16px !important;
+  }
+  #cardGreen.card.green .control .image img {
+    width: 80px !important;
+    height: 80px !important;
+  }
+  .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .search a.btn-gradient {
+    padding: 2% !important;
+    font-size: 18px !important;
+  }
+  .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card .top .d-flex.one img {
+    height: 30px !important;
+  }
+  .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card .top .d-flex.two p.simbol {
+    padding: 2px 0px 0px 0px !important;
+  }
+  .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card .mid p.txt,
+  .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card .mid .d-flex .psico .txt p.date {
+    font-size: 14px !important;
+  }
+  .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card .mid .d-flex .psico .txt {
+    margin-left: 0 !important;
+  }
+  #MVG.menuVertical.green p.txt,
+  .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card .mid .d-flex .psico .txt p.h5,#MVG.menuVertical.green a.btn-gradient {
+    font-size: 18px !important;
+  }
+  .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .search {
+    margin-bottom: 5% !important;
+  }
+  #MVG.menuVertical.green p.h6 {
+    font-size: 20px !important;
+  }
+}
+
+
+@media only screen and (min-width: 320px) and (max-width:374px) {
+  #cardGreen.card.green .control .button {
+    padding-right: 0 !important;
+  }
+  #cardGreen.card.green .control .button a.btn-gradient {
+    font-size: 13px !important;
+  }
+  #cardGreen.card.green .control.two {
+    margin: 3% 0% 3% 3% !important;
+  }
+  .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card .mid .d-flex .button a {
+    font-size: 12px !important;
+  }
+  .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card .mid .d-flex .psico .txt {
+    margin-left: 2% !important;
+  }
+  .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card .mid .d-flex .button {
+    width: 50% !important;
+  }
+  .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card.consultas .minhas-consultas .mid .d-flex.one .txt p.date {
+    font-size: 11px !important; 
+  }
+  #accordion .card .c_one .card-body .buttons p.add_hour,
+  .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card.consultas .minhas-consultas .mid .d-flex.one .txt p.h5 {
+    font-size: 14px !important;
+  }
+  .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card .mid .d-flex .txt.two {
+    width: 60% !important;
+  }
+  .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card.plantao .mid .d-flex.one .button.one {
+    width: 43% !important;
+  }
+  .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card.consultas .minhas-consultas .mid .d-flex.one .psico {
+    width: 66% !important;
+  }
+  .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card.consultas .mid .d-flex .psico .ball-green, .main-content .container-fluid .row .col-sm-8.col-md-8.col-lg-8.col-xl-8 .card.consultas .mid .d-flex .psico .ball-red {
+    left: 22% !important;
+  }
+}

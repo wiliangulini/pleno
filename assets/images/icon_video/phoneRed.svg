@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" viewBox="0 0 54 54">
+  <g id="Grupo_93" data-name="Grupo 93" transform="translate(-100 -585)">
+    <circle id="Elipse_1" data-name="Elipse 1" cx="27" cy="27" r="27" transform="translate(100 585)" fill="#ff3d37"/>
+    <g id="phone-call_1_" data-name="phone-call (1)" transform="matrix(-0.719, 0.695, -0.695, -0.719, 138.622, 612.017)">
+      <g id="Grupo_11" data-name="Grupo 11">
+        <path id="Caminho_71" data-name="Caminho 71" d="M15.387,11a9.551,9.551,0,0,1-3-.477,1.284,1.284,0,0,0-1.3.276l-1.9,1.432A10.593,10.593,0,0,1,4.475,7.518L5.869,5.666A1.331,1.331,0,0,0,6.2,4.321a9.547,9.547,0,0,1-.48-3A1.32,1.32,0,0,0,4.4,0H1.319A1.32,1.32,0,0,0,0,1.319,15.4,15.4,0,0,0,15.387,16.706a1.32,1.32,0,0,0,1.319-1.319V12.318A1.32,1.32,0,0,0,15.387,11Z" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

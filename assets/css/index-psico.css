@@ -1,0 +1,319 @@
+a.btn.back-purple {
+  background: #7E5DED;
+  border: 1px solid #7E5DED;
+  border-radius: 6px;
+  transition: all .35s ease-in;
+  color: #FFF;
+}
+a.btn.back-purple:hover {
+  color: #7E5DED;
+  background: #FFF;
+}
+/* plantao */
+#layout-wrapper .main-content .page-content .container-fluid .row .card {
+  background: #fefefe;
+  box-shadow: 0px 2px 4px rgba(0,0,0, 0.25);
+  border-radius: 6px;
+}
+#layout-wrapper .main-content .page-content .container-fluid .row .card {
+  padding: 0% 2% 2%;
+}
+#layout-wrapper .main-content .page-content .container-fluid .row .card .title {
+  position: absolute;
+  width: 100%;
+  background: #F2F2F2;
+  left: 0;
+  height: 28%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #CCCCCC;
+}
+#layout-wrapper .main-content .page-content .container-fluid .row .card .title p {
+  margin-bottom: 0;
+  color: #4B4B4B ;
+}
+#layout-wrapper .main-content .page-content .container-fluid .row .col-sm-7.col-md-7.col-lg-7 .card.plantao .plantInt .one.d-flex img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius:50%;
+  position: absolute;
+  left: 1%;
+  bottom: 9%;
+}
+#layout-wrapper .main-content .page-content .container-fluid .row .col-sm-7.col-md-7.col-lg-7 .card.plantao .plantInt .one.d-flex a.btn.back-purple {
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#layout-wrapper .main-content .page-content .container-fluid .row .col-sm-7.col-md-7.col-lg-7 .card.plantao .plantInt .one.d-flex p.name {
+  margin-left: 26%;
+}
+#layout-wrapper .main-content .page-content .container-fluid .row .col-sm-7.col-md-7.col-lg-7 .card.plantao .plantInt .one.d-flex {
+  width: 33.3%;
+}
+#layout-wrapper .main-content .page-content .container-fluid .row .col-sm-7.col-md-7.col-lg-7 .card.plantao .plantInt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f2f2f2;
+  margin-top: 9%;
+  padding: 5px;
+  border-radius: 4px;
+}
+#layout-wrapper .main-content .page-content .container-fluid .row .col-sm-7.col-md-7.col-lg-7 .card.plantao .plantInt .one.d-flex p {
+  margin-bottom: 0;
+}
+/* agenda */
+#layout-wrapper .main-content .page-content .container-fluid .row .col-sm-7.col-md-7.col-lg-7 .card.agenda {
+  height: 300px;
+}
+#layout-wrapper .main-content .page-content .container-fluid .row .col-sm-7.col-md-7.col-lg-7 .card.agenda .title {
+  height: 18%; /* por causa dos 300px q sao simbolicos, alterar valor ao mudar o tamanho do card.agenda*/
+}
+#layout-wrapper .main-content .page-content .container-fluid .row .col-sm-7.col-md-7.col-lg-7 .card.agenda .title i {
+  position: absolute;
+  right: 5%;
+  background: #fafafa;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  color: #8C6DF6;
+  box-shadow: 0px 0px 4.76129px rgba(0, 0, 0, 0.15);
+}
+#layout-wrapper .main-content .page-content .container-fluid .row .col-sm-4.col-md-4.col-lg-4 .card.roxo .photo img,
+#layout-wrapper .main-content .page-content .container-fluid .row .col-sm-7.col-md-7.col-lg-7 .card.roxo.mobile .photo img {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+#layout-wrapper .main-content .page-content .container-fluid .row .col-sm-4.col-md-4.col-lg-4 .card.roxo,
+#layout-wrapper .main-content .page-content .container-fluid .row .col-sm-7.col-md-7.col-lg-7 .card.roxo.mobile {
+  background: linear-gradient(90.89deg, #7E5DED 29.99%, #9D80FF 97.29%);
+  border-radius: 0px 0px 26px 26px;
+  height: 20%;
+  position: relative;
+  top: -23px;
+}
+#layout-wrapper .main-content .page-content .container-fluid .row .col-sm-7.col-md-7.col-lg-7 .card.roxo.mobile {
+  display: none;
+}
+#layout-wrapper .main-content .page-content .container-fluid .row .col-sm-4.col-md-4.col-lg-4 .card.roxo .txt p.h5,
+#layout-wrapper .main-content .page-content .container-fluid .row .col-sm-7.col-md-7.col-lg-7 .card.roxo.mobile .txt p.h5 {
+  margin-bottom: 5%;
+}
+#layout-wrapper .main-content .page-content .container-fluid .row .col-sm-4.col-md-4.col-lg-4 .card.roxo .txt p,
+#layout-wrapper .main-content .page-content .container-fluid .row .col-sm-7.col-md-7.col-lg-7 .card.roxo.mobile .txt p {
+  color: #FFF;
+  margin-bottom: 0;
+}
+#layout-wrapper .main-content .page-content .container-fluid .row .col-sm-4.col-md-4.col-lg-4 .card.status .title {
+  height: 16%;
+}
+#layout-wrapper .main-content .page-content .container-fluid .row .col-sm-4.col-md-4.col-lg-4 .card.status {
+  display: flex;
+  align-items: center;
+}
+#layout-wrapper .main-content .page-content .container-fluid .row .col-sm-4.col-md-4.col-lg-4 .card.financeiro {
+  display: none;
+}
+#layout-wrapper .main-content .page-content .container-fluid .row .col-sm-4.col-md-4.col-lg-4 .card.status .statusInt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 4px 4px 0px;
+  height: 49px;
+  width: 93%;
+  margin-bottom: 4%;
+}
+#layout-wrapper .main-content .page-content .container-fluid .row .col-sm-4.col-md-4.col-lg-4 .card.status .statusInt.ag {
+  margin-top: 19%;
+}
+#layout-wrapper .main-content .page-content .container-fluid .row .col-sm-4.col-md-4.col-lg-4 .card.status .statusInt img {
+  width: 30px;
+  margin-right: 3%;
+}
+#layout-wrapper .main-content .page-content .container-fluid .row .col-sm-4.col-md-4.col-lg-4 .card.status .statusInt .early {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background: #F4F4F4;
+  width: 90%;
+  height: inherit;
+  padding-left: 4%;
+}
+#layout-wrapper .main-content .page-content .container-fluid .row .col-sm-4.col-md-4.col-lg-4 .card.status .statusInt .end {
+  background: #FFF;
+  width: 10%;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 4px 4px 0px;
+}
+#layout-wrapper .main-content .page-content .container-fluid .row .col-sm-4.col-md-4.col-lg-4 .card.status .statusInt .end p,
+#layout-wrapper .main-content .page-content .container-fluid .row .col-sm-4.col-md-4.col-lg-4 .card.status .statusInt .early p {
+  margin-bottom: 0;
+}
+#layout-wrapper .main-content .page-content .container-fluid .row .col-sm-4.col-md-4.col-lg-4 .card.status .statusInt .end p.h4 {
+  color: #7E5DED;
+}
+#layout-wrapper .main-content .page-content .container-fluid .row .col-sm-4.col-md-4.col-lg-4 .card.lastAtend {
+  display: flex;
+  align-items: center;
+}
+#layout-wrapper .main-content .page-content .container-fluid .row .col-sm-4.col-md-4.col-lg-4 .card.lastAtend .statusInt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #DDD;
+  width: 93%;
+  margin-bottom: 4%;
+  padding: 7px 0px;
+}
+#layout-wrapper .main-content .page-content .container-fluid .row .col-sm-4.col-md-4.col-lg-4 .card.lastAtend .statusInt .early img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+#layout-wrapper .main-content .page-content .container-fluid .row .col-sm-4.col-md-4.col-lg-4 .card.lastAtend .statusInt .mid p.h5 {
+  margin-bottom: 0;
+}
+#layout-wrapper .main-content .page-content .container-fluid .row .col-sm-4.col-md-4.col-lg-4 .card.lastAtend .statusInt.ag {
+  margin-top: 21%;
+}
+#layout-wrapper .main-content .page-content .container-fluid .row .col-sm-4.col-md-4.col-lg-4 .card.lastAtend .title {
+  height: 16%;
+}
+#layout-wrapper .main-content .page-content .container-fluid .row .col-sm-4.col-md-4.col-lg-4 .card.lastAtend .statusInt .end i {
+  color: #7E5DED;
+  font-size: 20px;
+}
+#layout-wrapper .main-content .page-content .container-fluid .row .col-sm-4.col-md-4.col-lg-4 .card.lastAtend a.btn.back-purple {
+  width: 55%;
+}
+#layout-wrapper .main-content .page-content .container-fluid .row .col-sm-7.col-md-7.col-lg-7 .card.plantao .plantInt .one.mobile.d-flex {
+  display: none !important;
+}
+@media only screen and (min-width:320px) and (max-width:768px) {
+  #layout-wrapper .main-content .page-content .container-fluid .row .card {
+    padding: 0% 2% 5%;
+  }
+  #layout-wrapper .main-content .page-content .container-fluid .row .col-sm-4.col-md-4.col-lg-4 .card.roxo,
+  #layout-wrapper .main-content .page-content .container-fluid .row .col-sm-7.col-md-7.col-lg-7 .card.plantao .plantInt .one.desk.d-flex,#layout-wrapper .main-content .page-content .container-fluid .row .col-sm-7.col-md-7.col-lg-7 .card.plantao .plantInt .one.desk0.d-flex p.name {
+    display: none !important;
+  }
+  #layout-wrapper .main-content .page-content .container-fluid .row .col-sm-4.col-md-4.col-lg-4,
+  #layout-wrapper .main-content .page-content .container-fluid .row .col-sm-7.col-md-7.col-lg-7 { 
+    padding-left: 0;
+    padding-right: 0;
+  }
+  #layout-wrapper .main-content .page-content .container-fluid .row .col-sm-4.col-md-4.col-lg-4 .card.financeiro,
+  #layout-wrapper .main-content .page-content .container-fluid .row .col-sm-7.col-md-7.col-lg-7 .card.plantao .plantInt .one.mobile.d-flex {
+    display: flex !important;
+  }
+  #layout-wrapper .main-content .page-content .container-fluid .row .col-sm-7.col-md-7.col-lg-7 .card.roxo.mobile {
+    display: flex;
+    top: -25px;
+    margin-bottom: 0;
+    position: absolute;
+    width: 108%;
+    height: 112px;
+    left: -4%;
+  }
+  #layout-wrapper .main-content .page-content .container-fluid .row .col-sm-7.col-md-7.col-lg-7 .card.roxo.mobile .photo img {
+    width: 67px;
+    height: 67px;
+    position: relative;
+    bottom: -10px;
+  }
+  #layout-wrapper .main-content .page-content .container-fluid .row .col-sm-7.col-md-7.col-lg-7 .card.roxo.mobile .txt p {
+    font-size: 14px;
+  }
+  #layout-wrapper .main-content .page-content .container-fluid .row .col-sm-7.col-md-7.col-lg-7 .card.roxo.mobile .txt p.h5 {
+    font-size: 18px;
+  }
+  #layout-wrapper .main-content .page-content .container-fluid .row .col-sm-7.col-md-7.col-lg-7 .card.plantao {
+    margin-top: 32%;
+    height: 163px;
+    align-items: center;
+  }
+  #layout-wrapper .main-content .page-content .container-fluid .row .col-sm-7.col-md-7.col-lg-7 .card.plantao .plantInt {
+    position: relative;
+    top: 26%;
+    height: 40%;
+    width: 98%;
+    border-radius: 50px 4px 4px 50px;
+    border: 1px solid #E3E3E3;
+  }
+  #layout-wrapper .main-content .page-content .container-fluid .row .col-sm-7.col-md-7.col-lg-7 .card.plantao .plantInt .one.desk0.d-flex img {
+    left: -0.5%;
+    bottom: 0%;
+  }
+  #layout-wrapper .main-content .page-content .container-fluid .row .col-sm-7.col-md-7.col-lg-7 .card.plantao .plantInt .one.mobile.d-flex {
+    width: 85%;
+  }
+  #layout-wrapper .main-content .page-content .container-fluid .row .col-sm-7.col-md-7.col-lg-7 .card.plantao .plantInt .one.mobile.d-flex p.name {
+    margin-left: 0;
+  }
+  #layout-wrapper .main-content .page-content .container-fluid .row .col-sm-7.col-md-7.col-lg-7 .card.plantao .plantInt .one.d-flex a.btn.back-purple {
+    height: 35px;
+  }
+  #layout-wrapper .main-content .page-content .container-fluid .row .col-sm-4.col-md-4.col-lg-4 .card.financeiro {
+    height: 215px;
+  }
+  #layout-wrapper .main-content .page-content .container-fluid .row .col-sm-4.col-md-4.col-lg-4 .card.financeiro .saldo {
+    position: relative;
+    top: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 3% 0%;
+  }
+  #layout-wrapper .main-content .page-content .container-fluid .row .col-sm-4.col-md-4.col-lg-4 .card.financeiro .saldo p.h3 {
+    font-size: 18px;
+  }
+  #layout-wrapper .main-content .page-content .container-fluid .row .col-sm-4.col-md-4.col-lg-4 .card.financeiro .saldo .txt {
+    width: 90%;
+    text-align: center;
+  }
+  #layout-wrapper .main-content .page-content .container-fluid .row .col-sm-4.col-md-4.col-lg-4 .card.financeiro .saldo a.btn.back-purple {
+    width: 70%;
+  }
+  #layout-wrapper .main-content .page-content .container-fluid .row .col-sm-4.col-md-4.col-lg-4 .card.status .statusInt .early {
+    width: 85%;
+  }
+  #layout-wrapper .main-content .page-content .container-fluid .row .col-sm-4.col-md-4.col-lg-4 .card.status .statusInt .end {
+    width: 15%;
+  }
+  #layout-wrapper .main-content .page-content .container-fluid .row .col-sm-4.col-md-4.col-lg-4 .card.lastAtend .statusInt.meio {
+    display: none !important;
+  }
+  #layout-wrapper .main-content .page-content .container-fluid .row .col-sm-4.col-md-4.col-lg-4 .card.lastAtend .statusInt .early {
+    width: 23%;
+  }
+  #layout-wrapper .main-content .page-content .container-fluid .row .col-sm-4.col-md-4.col-lg-4 .card.lastAtend .statusInt .mid {
+    width: 67%;
+  }
+  #layout-wrapper .main-content .page-content .container-fluid .row .col-sm-4.col-md-4.col-lg-4 .card.lastAtend .statusInt .end {
+    width: 10%;
+  }
+  #layout-wrapper .main-content .page-content .container-fluid .row .col-sm-4.col-md-4.col-lg-4 .card.lastAtend .statusInt .early,
+  #layout-wrapper .main-content .page-content .container-fluid .row .col-sm-4.col-md-4.col-lg-4 .card.lastAtend .statusInt .mid,
+  #layout-wrapper .main-content .page-content .container-fluid .row .col-sm-4.col-md-4.col-lg-4 .card.lastAtend .statusInt .end {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}

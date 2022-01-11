@@ -1,0 +1,477 @@
+.strong_light{
+  font-weight: 550 !important;
+}
+.strong_early {
+  font-weight: 600 !important;
+}
+img {
+  object-fit: cover !important;
+}
+#c1, #c2, #c3, #c4 {
+  display: none;
+}
+.circle-green {
+  background: #71D3BF;
+  width: 21px;
+  height: 21px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+/* progress bar */
+.inputR {
+  background: linear-gradient(to right, #1F9CB8 0%, #2EA68D 40%, #CCFFD4 40%, #CCFFD4 100%);
+  border-radius: 8px;
+  height: 7px;
+  width: 400px;
+  outline: none;
+  transition: background 450ms ease-in;
+  -webkit-appearance: none;
+}
+
+.inputR::-webkit-slider-thumb {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  -webkit-appearance: none;
+  cursor: ew-resize;
+  background: #FFFFFF;
+  box-shadow: 0px 1.19799px 4.79195px rgba(0, 0, 0, 0.15);
+}
+/* end progress bar*/
+
+.main-content {
+  margin-left: 250px;
+  margin-top: 70px;
+  padding: 1.5% 1%;
+  transition: all .35s ease-in;
+  -webkit-transition: all .35s ease-in;
+  -moz-transition: all .35s ease-in;
+  -ms-transition: all .35s ease-in;
+  -o-transition: all .35s ease-in;
+}
+.main-content .container-fluid {
+  padding: 4% 12px;
+}
+.main-content .container-fluid .row {
+  justify-content: center;
+  align-items: center;
+}
+.main-content .container-fluid .row form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-content .container-fluid .row .card {
+  max-width: 512px;
+  width: 100%;
+  box-shadow: 0px 2px 7px -1px rgb(0 0 0 / 25%);
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+  margin-bottom: 0;
+}
+.main-content .container-fluid .row .card .cardInt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.main-content .container-fluid .row .card .title p.h4 {
+  font-weight: 100;
+  font-size: 24px;
+  color: #595959;
+}
+.main-content .container-fluid .row .card .barra-progresso {
+  width: 87%;
+  margin-top: 4%;
+}
+.main-content .container-fluid .row .card .barra-progresso .span {
+  margin-bottom: 1px;
+}
+.main-content .container-fluid .row .card .barra-progresso .span .control.d-flex span.txt {
+  margin-left: 7%;
+}
+.main-content .container-fluid .row .card .img {
+  margin-top: 4%;
+}
+.main-content .container-fluid .row .card .img p.h5 {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 6%;
+  color: #595959;
+  font-weight: 300;
+  text-align: center;
+  font-family: "Poppins Light";
+}
+.main-content .container-fluid .row .card .img .psicologo {
+  height: 234px;
+}
+.main-content .container-fluid .row .card .text {
+  margin-top: 7%;
+  width: 85%;
+}
+.main-content .container-fluid .row .card .text p.txt {
+  color: #4B4B4B;
+  font-size: 18px;
+  width: 90%;
+  margin-bottom: 0;
+}
+.main-content .container-fluid .row .card .text .control.d-flex {
+  margin-bottom: 5%;
+}
+.main-content .container-fluid .row .card .text .control.d-flex .circle-green {
+  margin-right: 3%;
+  margin-top: 4px;
+}
+.main-content .container-fluid .row .card .button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4%;
+}
+.main-content .container-fluid .row .card .button a.btn-gradient {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1%;
+  font-weight: 500;
+  font-size: 20px;
+  cursor: pointer;
+}
+.main-content .container-fluid .row .card .button a.btn-gradient img.arrow_right {
+  position: relative;
+  left: 5%;
+  top: 0.5px;
+}
+
+/* #c2 */
+
+.main-content .container-fluid .row .card .img .mobile-login {
+  height: 241px;
+}
+.main-content .container-fluid .row .card .cardInt .inputs label {
+  position: relative;
+  display: flex;
+  cursor: pointer;
+  width: 35px;
+  height: 35px;
+  margin-bottom: 0;
+}
+.main-content .container-fluid .row .card .cardInt .inputs {
+  width: 50%;
+}
+.main-content .container-fluid .row .card .cardInt .inputs label input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+.main-content .container-fluid .row .card .cardInt .inputs label .check {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 35px;
+  height: 35px;
+  border: 1px solid #E5E5E5;
+  border-radius: 50%;
+  transition: all .25s ease-in;
+  background-color: #FFF;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.main-content .container-fluid .row .card .cardInt .inputs label input:checked ~ .check {
+  background-color: #2FD2B1;
+  border-color: #2FD2B1;
+} 
+span.check::after {
+  top: 7.5px;
+  left: 13px;
+  width: 8px;
+  height: 15px;
+  border: solid #FFF;
+  border-width: 0px 2.39px 2.39px 0px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  content: "";
+  position: absolute;
+  display: block;
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+}
+.main-content .container-fluid .row .card .cardInt .img p.h6 {
+  font-weight: 400;
+  font-size: 18px;
+  color: #595959;
+  text-align: center;
+  margin: 15% 0% 13% 0%;
+}
+#c2 .img {
+  margin-top: 6%;
+}
+#c2 .range {
+  margin-top: 10%;
+  border-top: 1.19px solid #E0E0E0;
+  padding-top: 8%;
+}
+#c2 .range p.h6 {
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 10%;
+}
+#c2 .range .year {
+  display: flex;
+  justify-content: space-between;
+}
+#c2 .button {
+  margin-top: 12%;
+}
+#c2 .inputs .label p {
+  margin-bottom: 0;
+  position: absolute;
+  font-weight: 600;
+  color: #595959;
+  top: 110%;
+  left: 14%;
+}
+
+/* #c3 */
+
+/* toggle switch */
+
+#switch, #switch1 {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  margin-bottom: 0;
+  margin-left: 7%;
+}
+#switch input, #switch1 input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+#slider, #slider1 {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+  -moz-transition: .4s;
+  -ms-transition: .4s;
+  -o-transition: .4s;
+}
+#slider:before, #slider1:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+  -moz-transition: .4s;
+  -ms-transition: .4s;
+  -o-transition: .4s;
+}
+input:checked + #slider, input:checked + #slider1 {
+  background-color: #2FD2B1;
+}
+input:focus + #slider, input:focus + #slider1 {
+  box-shadow: 0 0 1px #2FD2B1;
+}
+input:checked + #slider:before, input:checked + #slider1:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+  -moz-transform: translateX(26px);
+  -o-transform: translateX(26px);
+}
+/* Rounded sliders */
+#slider.round, #slider1.round {
+  border-radius: 34px;
+  -webkit-border-radius: 34px;
+  -moz-border-radius: 34px;
+  -ms-border-radius: 34px;
+  -o-border-radius: 34px;
+}
+#slider.round:before, #slider1.round:before {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+/* end toggle switch */
+
+#c3 .inputs label#switch p,
+#c3 .inputs label#switch1 p {
+  position: absolute;
+  font-size: 17px;
+  font-weight: 600;
+  top: 115%;
+  left: -29%;
+}
+#c3 .range {
+  margin-top: 15%;
+  border-top: 1px solid #DDD;
+  padding-top: 9%;
+  width: 90%;
+}
+#c3 .range .labels label {
+  background: #E5E5E5;
+  position: relative;
+  display: flex;
+  width: 32%;
+  justify-content: center;
+  align-items: center;
+  padding: 0%;
+  border-radius: 7.4px;
+  -webkit-border-radius: 7.4px;
+  -moz-border-radius: 7.4px;
+  -ms-border-radius: 7.4px;
+  -o-border-radius: 7.4px;
+}
+#c3 .range .labels label span {
+  margin-bottom: 0;
+  font-size: 17px;
+  color: #595959;
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  border-radius: 7.4px;
+  -webkit-border-radius: 7.4px;
+  -moz-border-radius: 7.4px;
+  -ms-border-radius: 7.4px;
+  -o-border-radius: 7.4px;
+  transition: .4s;
+  -webkit-transition: .4s;
+  -moz-transition: .4s;
+  -ms-transition: .4s;
+  -o-transition: .4s;
+  padding: 3.5% 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#c3 .range .labels label input {
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  left: 0;
+}
+#c3 .range .labels label input:checked + .backgroundHumor {
+  background-color: #2EA68D;
+  color: #FFF;
+}
+#c3 .range p.h6 {
+  font-weight: 400;
+  font-size: 18px;
+  color: #595959;
+  text-align: center;
+  margin-bottom: 6%;
+}
+#c3 .button {
+  margin-top: 9%;
+}
+
+/* #c4 */
+
+#c4 .cardInt .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3%;
+}
+#c4 .cardInt .title p.h4 {
+  text-align: center;
+  font-size: 17px;
+  width: 60%;
+  font-weight: 400;
+}
+#c4 .cardInt .texto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#c4 .cardInt .texto p.h6 {
+  text-align: center;
+  font-size: 17px;
+  font-weight: 400;
+  width: 75%;
+}
+#c4 .cardInt .texto p.h6.one {
+  margin-bottom: 4%;
+}
+#c4 .cardInt .img {
+  margin: 6% 0% 10%;
+}
+
+@media only screen and (min-width:320px) and (max-width: 768px) {
+  .main-content {
+    margin-left: 0;
+  }
+  .circle-green {
+    width: 15px;
+    height: 15px;
+  }
+  .main-content .container-fluid .row .card {
+    padding: 2% 2% 4% 2%;
+    width: 95%;
+  }
+  .main-content .container-fluid .row form .card .title {
+    margin-top: 3%;
+    width: 100%;
+    text-align: center;
+  }
+  .main-content .container-fluid .row .card .button a.btn-gradient,
+  .main-content .container-fluid .row .card .title p.h4 {
+    font-size: 18px;
+  }
+  .main-content .container-fluid .row .card .img p.h5 {
+    font-size: 17px;
+  }
+  #c4 .cardInt .texto p.h6,
+  .main-content .container-fluid .row .card .text {
+    width: 90%;
+  }
+  #c4 .cardInt .texto p.h6,
+  #c3 .range .labels label span,
+  .main-content .container-fluid .row .card .text p.txt {
+    font-size: 14px;
+  }
+  .main-content .container-fluid .row .card .button a.btn-gradient {
+    width: 60%;
+  }
+
+  #c4 .cardInt .title p.h4,
+  .inputR {
+    width: 100%;
+  }
+
+  .main-content .container-fluid .row .card .cardInt .inputs {
+    width: 70%;
+  }
+
+}

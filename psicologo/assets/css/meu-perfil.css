@@ -1,0 +1,437 @@
+.green {
+  color: #16ad8e;
+}
+#upload {
+  display: none;
+}
+#img {
+  cursor: pointer;
+}
+#seta, #arrow1 {
+  position: relative;
+  top: 2px;
+}
+input {
+  height: 45px !important;
+  width: 100% !important;
+  padding-left: 3.5% !important;
+}
+.label {
+  width: 48%;
+  position: relative;
+}
+.textarea {
+  position: relative;
+}
+.textarea svg {
+  position: absolute;
+  right: 1.8%;
+  bottom: 40%;
+}
+.label svg {
+  position: absolute;
+  right: 4%;
+  bottom: 28%;
+}
+.label svg.format {
+  position: absolute;
+  right: 1.8%;
+  bottom: 35%;
+}
+.label img {
+  position: absolute;
+  right: 4%;
+  bottom: 24%;
+}
+.label svg {
+  color: #FF2424;
+}/*
+input:focus {
+  border: 1px solid red;
+}*/
+textarea {
+  height: 147px !important;
+  padding-left: 1.5% !important;
+  padding-top: 1% !important;
+  margin-bottom: 1% !important;
+  width: 100% !important;
+}
+.label .txt,
+.main-content .container-fluid .row .col-sm-12.col-md-12.col-lg-12.col-xl-12 .col-sm-10.col-md-10.col-lg-10.col-xl-10 .profile .form .selects .control .txt,
+.textarea .txt {
+  color: #919594;
+}
+p, label {
+  margin-bottom: 0;
+}
+input, textarea {
+  border: 1px solid #919594;
+  border-radius: 7px !important;
+  -webkit-border-radius: 7px !important;
+  -moz-border-radius: 7px !important;
+  -ms-border-radius: 7px !important;
+  -o-border-radius: 7px !important;
+  font-size: 15px !important;
+  color: #919594 !important;
+  font-style: italic !important;
+}
+input 
+textarea,
+.main-content .container-fluid,
+.main-content .container-fluid .row .col-sm-12.col-md-12.col-lg-12.col-xl-12 .col-sm-10.col-md-10.col-lg-10.col-xl-10 .progressBar p.h5,
+.main-content .container-fluid .row .col-sm-12.col-md-12.col-lg-12.col-xl-12 .col-sm-10.col-md-10.col-lg-10.col-xl-10 .progressBar .progress {
+  width: 100%;
+}
+
+/* ls-select */
+#ls-select, #ls-select1 {
+  background: #FFFFFF;
+  border-radius: 6px;
+  border: 1.5px solid #848484;
+  height: 50px;
+  color: #8F8F8F;
+  font-size: 14px;
+  width: 100%;
+  padding: 1% 2% 1% 3%;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  cursor: pointer;
+}
+#ls-select, #ls-select1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+#ls-select .control, #ls-select1 .control {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+#ls-select .control p#value.txt , #ls-select1 .control p#value1.txt {
+  margin-bottom: 0;
+  font-style: italic;
+  font-size: 16px;
+}
+#ls-select .down.val, #ls-select1 .down.val {
+  position: absolute;
+  top: 105%;
+  width: 100%;
+  background-color: #FFF;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  box-shadow: 0px 0px 2px rgb(0 0 0 / 30%);
+  z-index: 10;
+}
+#ls-select .down.val .label, #ls-select1 .down.val .label {
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 1px solid #DDD;
+}
+
+#ls-select .down.val .label,
+#ls-select .down.val .label p,
+#ls-select1 .down.val .label,
+#ls-select1 .down.val .label p {
+  margin-bottom: 0;
+}
+#ls-select .down.val .label p,
+#ls-select1 .down.val .label p {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 10;
+  padding: 4%;
+  cursor: pointer;
+}
+#ls-select .down.val .label input.radio,
+#ls-select1 .down.val .label input.radio {
+  opacity: 0;
+  position: absolute;
+}
+
+/* ls-select end */
+
+.main-content {
+  margin-left: 250px;
+  background-color: #f9f9f9;
+  margin-top: 90px;
+}
+.main-content .container-fluid {
+  max-width: 95%;
+  position: relative;
+  top: 35px;
+}
+.main-content .container-fluid .row {
+  background-color: #FFF;
+  padding-bottom: 4%;
+}
+.main-content .container-fluid .title {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 1%;
+}
+.main-content .container-fluid .title .icon_user {
+  margin-right: 1%;
+}
+.main-content .container-fluid .title p.h5 {
+  color: #6f6f6f;
+  margin-bottom: 0;
+}
+.main-content .container-fluid .row .col-sm-12.col-md-12.col-lg-12.col-xl-12 .col-sm-10.col-md-10.col-lg-10.col-xl-10 .profile .form .input.one {
+  margin-top: 4%;
+}
+input[type="password"] {
+  padding-top: 1.5%;
+}
+input[type="password"]:focus {
+  padding-top: 0;
+}
+.main-content .container-fluid .row .col-sm-12.col-md-12.col-lg-12.col-xl-12 .col-sm-10.col-md-10.col-lg-10.col-xl-10 .profile .form .input.one .label input {
+  font-style: normal !important;
+}
+.main-content .container-fluid .row .col-sm-12.col-md-12.col-lg-12.col-xl-12 .col-sm-10.col-md-10.col-lg-10.col-xl-10 .profile .form .input.two {
+  margin: 1% 0%;
+}
+.main-content .container-fluid .row .col-sm-12.col-md-12.col-lg-12.col-xl-12 .col-sm-10.col-md-10.col-lg-10.col-xl-10 .progressBar p.h5,
+.main-content .container-fluid .row .col-sm-12.col-md-12.col-lg-12.col-xl-12 .col-sm-10.col-md-10.col-lg-10.col-xl-10 .progressBar .txt,
+.main-content .container-fluid .row .col-sm-12.col-md-12.col-lg-12.col-xl-12 .col-sm-10.col-md-10.col-lg-10.col-xl-10 .profile .img p,
+.main-content .container-fluid .row .col-sm-12.col-md-12.col-lg-12.col-xl-12 .col-sm-10.col-md-10.col-lg-10.col-xl-10 .profile .hello p.h4 {
+  color: #786666;
+}
+.main-content .container-fluid .row .col-sm-12.col-md-12.col-lg-12.col-xl-12 .col-sm-10.col-md-10.col-lg-10.col-xl-10 .progressBar {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 75%;
+  border-bottom: 1px solid #D8CFCF;
+  padding-bottom: 1%;
+}
+.main-content .container-fluid .row .col-sm-12.col-md-12.col-lg-12.col-xl-12 .col-sm-10.col-md-10.col-lg-10.col-xl-10 .progressBar p.h5 {
+  text-align: left;
+}
+.main-content .container-fluid .row .col-sm-12.col-md-12.col-lg-12.col-xl-12 .col-sm-10.col-md-10.col-lg-10.col-xl-10 .progressBar .txt {
+  margin-top: 2%;;
+  text-align: center;
+}
+.main-content .container-fluid .row .col-sm-12.col-md-12.col-lg-12.col-xl-12 .col-sm-10.col-md-10.col-lg-10.col-xl-10 .profile {
+  width: 75%;
+  margin-top: 2%;
+}
+.main-content .container-fluid .row .col-sm-12.col-md-12.col-lg-12.col-xl-12 .col-sm-10.col-md-10.col-lg-10.col-xl-10 .profile .img .imgInt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-content .container-fluid .row .col-sm-12.col-md-12.col-lg-12.col-xl-12 .col-sm-10.col-md-10.col-lg-10.col-xl-10 .profile .img p {
+  text-align: center;
+  font-weight: 300;
+  font-size: 14px;
+  position: relative;
+  bottom: 10px;
+}
+.main-content .container-fluid .row .col-sm-12.col-md-12.col-lg-12.col-xl-12 .col-sm-10.col-md-10.col-lg-10.col-xl-10 .profile .hello p.h4 {
+  text-align: center;
+  font-size: 24px;
+}
+.main-content .container-fluid .row .col-sm-12.col-md-12.col-lg-12.col-xl-12 .col-sm-10.col-md-10.col-lg-10.col-xl-10 .profile .form .formation .label {
+  width: 100% !important;
+}
+.main-content .container-fluid .row .col-sm-12.col-md-12.col-lg-12.col-xl-12 .col-sm-10.col-md-10.col-lg-10.col-xl-10 .profile .form .selects {
+  justify-content: space-between;
+  margin-bottom: 4%;
+}
+.main-content .container-fluid .row .col-sm-12.col-md-12.col-lg-12.col-xl-12 .col-sm-10.col-md-10.col-lg-10.col-xl-10 .profile .form .selects .control,
+.main-content .container-fluid .row .col-sm-12.col-md-12.col-lg-12.col-xl-12 .col-sm-10.col-md-10.col-lg-10.col-xl-10 .profile .form .buttons a {
+  width: 48%;
+}
+.main-content .container-fluid .row .col-sm-12.col-md-12.col-lg-12.col-xl-12 .col-sm-10.col-md-10.col-lg-10.col-xl-10 .profile .form .buttons a .dados,
+.main-content .container-fluid .row .col-sm-12.col-md-12.col-lg-12.col-xl-12 .col-sm-10.col-md-10.col-lg-10.col-xl-10 .profile .form .buttons a .video {
+  background: #F7F7F7;
+  width: 100%;
+  box-shadow: 0px 2px 4px rgb(0 0 0 / 25%);
+  display: flex;
+  height: 51px;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+  padding: 0% 5%;
+}
+.main-content .container-fluid .row .col-sm-12.col-md-12.col-lg-12.col-xl-12 .col-sm-10.col-md-10.col-lg-10.col-xl-10 .profile .form .buttons a .dados img,
+.main-content .container-fluid .row .col-sm-12.col-md-12.col-lg-12.col-xl-12 .col-sm-10.col-md-10.col-lg-10.col-xl-10 .profile .form .buttons a .video img {
+  margin-right: 2.5%;
+}
+.main-content .container-fluid .row .col-sm-12.col-md-12.col-lg-12.col-xl-12 .col-sm-10.col-md-10.col-lg-10.col-xl-10 .profile .form .buttons a .dados p.h5,
+.main-content .container-fluid .row .col-sm-12.col-md-12.col-lg-12.col-xl-12 .col-sm-10.col-md-10.col-lg-10.col-xl-10 .profile .form .buttons a .video p.h5 {
+  margin-bottom: 0;
+  color: #6E6F6E;
+}
+.main-content .container-fluid .row .col-sm-12.col-md-12.col-lg-12.col-xl-12 .col-sm-10.col-md-10.col-lg-10.col-xl-10 .profile .form .info {
+  margin-top: 7%;
+}
+.main-content .container-fluid .row .col-sm-12.col-md-12.col-lg-12.col-xl-12 .col-sm-10.col-md-10.col-lg-10.col-xl-10 .profile .form .info .d-flex.justify-content-start p.h4 {
+  margin-bottom: 0;
+  color: #9a9a9a;
+  font-size: 14px;
+}
+.main-content .container-fluid .row .col-sm-12.col-md-12.col-lg-12.col-xl-12 .col-sm-10.col-md-10.col-lg-10.col-xl-10 .profile .form .info .d-flex.justify-content-start {
+  width: 48%;
+}
+.main-content .container-fluid .row .col-sm-12.col-md-12.col-lg-12.col-xl-12 .col-sm-10.col-md-10.col-lg-10.col-xl-10 .profile .form .info .btn-gradient {
+  width: 25% !important;
+  font-size: 22px !important;
+  font-weight: 500;
+  height: 45px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 !important;
+}
+.main-content .container-fluid .row .col-sm-12.col-md-12.col-lg-12.col-xl-12 .col-sm-10.col-md-10.col-lg-10.col-xl-10 .profile .form .info .d-flex svg {
+  margin-right: 2%;
+  color: #9A9A9A;
+}
+.main-content .container-fluid .row .col-sm-12.col-md-12.col-lg-12.col-xl-12 .col-sm-10.col-md-10.col-lg-10.col-xl-10 .profile .form .formation .label input {
+  padding-left: 1.5% !important;
+  margin-bottom: 1%;
+}
+input[type='submit'] {
+  font-style: normal !important;
+  padding: 0;
+}
+footer .container-fluid .row {
+  background-color: #f9f9f9 !important;
+  margin-top: 2%;
+}
+
+@media only screen and (min-width:320px) and (max-width: 768px) {
+  .textarea svg, .label svg.format {
+    right: 3.5%;
+  }
+  .label svg.format {
+    bottom: 29%;
+  }
+  .main-content {
+    margin-left: 0;
+  }
+  .main-content .container-fluid .row .col-sm-12.col-md-12.col-lg-12.col-xl-12 {
+    padding: 0;
+  }
+  .main-content .container-fluid .row .col-sm-12.col-md-12.col-lg-12.col-xl-12 .col-sm-10.col-md-10.col-lg-10.col-xl-10 .progressBar,
+  .main-content .container-fluid .row .col-sm-12.col-md-12.col-lg-12.col-xl-12 .col-sm-10.col-md-10.col-lg-10.col-xl-10 .profile,
+  .label,
+  .main-content .container-fluid .row .col-sm-12.col-md-12.col-lg-12.col-xl-12 .col-sm-10.col-md-10.col-lg-10.col-xl-10 .profile .form .selects .control,
+  .main-content .container-fluid .row .col-sm-12.col-md-12.col-lg-12.col-xl-12 .col-sm-10.col-md-10.col-lg-10.col-xl-10 .profile .form .buttons a,
+  .main-content .container-fluid .row .col-sm-12.col-md-12.col-lg-12.col-xl-12 .col-sm-10.col-md-10.col-lg-10.col-xl-10 .profile .form .info .d-flex.justify-content-start,
+  .main-content .container-fluid .row .col-sm-12.col-md-12.col-lg-12.col-xl-12 .col-sm-10.col-md-10.col-lg-10.col-xl-10 .profile .form .info .btn-gradient {
+    width: 100% !important;
+  }
+  .main-content .container-fluid .row .col-sm-12.col-md-12.col-lg-12.col-xl-12 .col-sm-10.col-md-10.col-lg-10.col-xl-10 .progressBar {
+    padding-bottom: 3%;
+  }
+  .main-content .container-fluid .row .col-sm-12.col-md-12.col-lg-12.col-xl-12 .col-sm-10.col-md-10.col-lg-10.col-xl-10 .progressBar .txt {
+    font-size: 14px;
+    margin-top: 5%;
+  }
+  input, textarea,
+  #ls-select .control p#value.txt, #ls-select1 .control p#value1.txt,
+  .main-content .container-fluid .row .col-sm-12.col-md-12.col-lg-12.col-xl-12 .col-sm-10.col-md-10.col-lg-10.col-xl-10 .profile .form .info .d-flex.justify-content-start p.h4 {
+    font-size: 13px;
+  }
+  .main-content .container-fluid .row .col-sm-12.col-md-12.col-lg-12.col-xl-12 .col-sm-10.col-md-10.col-lg-10.col-xl-10 .progressBar {
+    margin-top: 8%;
+  }
+  .main-content .container-fluid .row .col-sm-12.col-md-12.col-lg-12.col-xl-12 .col-sm-10.col-md-10.col-lg-10.col-xl-10 .progressBar p.h5 {
+    text-align: center;
+  }
+  .main-content .container-fluid .row .col-sm-12.col-md-12.col-lg-12.col-xl-12 .col-sm-10.col-md-10.col-lg-10.col-xl-10 .profile .form .input.one,
+  .main-content .container-fluid .row .col-sm-12.col-md-12.col-lg-12.col-xl-12 .col-sm-10.col-md-10.col-lg-10.col-xl-10 .profile .form .input.two,
+  .main-content .container-fluid .row .col-sm-12.col-md-12.col-lg-12.col-xl-12 .col-sm-10.col-md-10.col-lg-10.col-xl-10 .profile .form .selects,
+  .main-content .container-fluid .row .col-sm-12.col-md-12.col-lg-12.col-xl-12 .col-sm-10.col-md-10.col-lg-10.col-xl-10 .profile .form .buttons,
+  .main-content .container-fluid .row .col-sm-12.col-md-12.col-lg-12.col-xl-12 .col-sm-10.col-md-10.col-lg-10.col-xl-10 .profile .form .info {
+    flex-direction: column;
+  }
+  input {
+    height: 40px;
+  }
+  .main-content .container-fluid .row .col-sm-12.col-md-12.col-lg-12.col-xl-12 .col-sm-10.col-md-10.col-lg-10.col-xl-10 .profile .form .selects .control.one {
+    margin-bottom: 3%;
+  }
+  .main-content .container-fluid .row .col-sm-12.col-md-12.col-lg-12.col-xl-12 .col-sm-10.col-md-10.col-lg-10.col-xl-10 .profile .form .buttons a .dados {
+    margin-bottom: 5%;
+  }
+  .main-content .container-fluid .row .col-sm-12.col-md-12.col-lg-12.col-xl-12 .col-sm-10.col-md-10.col-lg-10.col-xl-10 .profile .form .selects {
+    margin-bottom: 7%;
+  }
+  .main-content .container-fluid .row .col-sm-12.col-md-12.col-lg-12.col-xl-12 .col-sm-10.col-md-10.col-lg-10.col-xl-10 .profile .form .buttons a .dados p.h5, .main-content .container-fluid .row .col-sm-12.col-md-12.col-lg-12.col-xl-12 .col-sm-10.col-md-10.col-lg-10.col-xl-10 .profile .form .buttons a .video p.h5,
+  .label p, .main-content .container-fluid .row .col-sm-12.col-md-12.col-lg-12.col-xl-12 .col-sm-10.col-md-10.col-lg-10.col-xl-10 .profile .form .selects .control .txt, .textarea .txt {
+    font-size: 15px;
+  }
+  .main-content .container-fluid .row .col-sm-12.col-md-12.col-lg-12.col-xl-12 .col-sm-10.col-md-10.col-lg-10.col-xl-10 .profile .form .info .btn-gradient {
+    font-size: 20px;
+    margin-top: 8%;
+  }
+  .main-content .container-fluid .row .col-sm-12.col-md-12.col-lg-12.col-xl-12 .col-sm-10.col-md-10.col-lg-10.col-xl-10 .profile .form .info {
+    margin-top: 10%;
+  }
+  .main-content .container-fluid .row {
+    padding-bottom: 8%;
+  }
+  .main-content .container-fluid .title .icon_user {
+    margin-right: 5%;
+  }
+  .main-content .container-fluid .title {
+    margin-bottom: 5%;
+  }
+  footer .container-fluid .row {
+    margin-top: 14px;
+  }
+  textarea {
+    padding-left: 3.5%;
+    padding-top: 2%;
+  }
+  .main-content .container-fluid .row .col-sm-12.col-md-12.col-lg-12.col-xl-12 .col-sm-10.col-md-10.col-lg-10.col-xl-10 .profile .form .formation .label input {
+    padding-left: 2.5%;
+  }
+  #ls-select, #ls-select1 {
+    height: 40px;
+  }
+
+}
+@media only screen and (min-width: 1024px) and (max-width: 1370px) {
+  .main-content .container-fluid .row .col-sm-12.col-md-12.col-lg-12.col-xl-12 .col-sm-10.col-md-10.col-lg-10.col-xl-10 .profile .form .buttons a .dados p.h5,
+  .main-content .container-fluid .row .col-sm-12.col-md-12.col-lg-12.col-xl-12 .col-sm-10.col-md-10.col-lg-10.col-xl-10 .profile .form .buttons a .video p.h5,
+  #ls-select .control p#value.txt, 
+  #ls-select1 .control p#value1.txt,
+  input,
+  textarea {
+    font-size: 14px;
+  }
+  .main-content .container-fluid .row .col-sm-12.col-md-12.col-lg-12.col-xl-12 .col-sm-10.col-md-10.col-lg-10.col-xl-10 .profile .form .info .btn-gradient {
+    width: 30%;
+    font-size: 16px;
+  }
+  .main-content .container-fluid .row .col-sm-12.col-md-12.col-lg-12.col-xl-12 .col-sm-10.col-md-10.col-lg-10.col-xl-10 .profile .form .info .d-flex.justify-content-start {
+    width: 65%;
+  }
+  .main-content .container-fluid .row .col-sm-12.col-md-12.col-lg-12.col-xl-12 .col-sm-10.col-md-10.col-lg-10.col-xl-10 .profile .form .info .d-flex.justify-content-start p.h4 {
+    font-size: 11px;
+  }
+}
+@media only screen and (min-width:320px) and (max-width: 374px) {
+  .main-content .container-fluid .row .col-sm-12.col-md-12.col-lg-12.col-xl-12 .col-sm-10.col-md-10.col-lg-10.col-xl-10 .progressBar p.h5 {
+    font-size: 19px;
+  }
+}

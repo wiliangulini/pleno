@@ -1,0 +1,128 @@
+.active {
+  background-color: #2EA68D !important;
+  color: #FFF !important;
+}
+#step {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+  box-shadow: 0px 0px 14.7626px -1.64029px rgb(0 0 0 / 15%);
+  width: 55%;
+  overflow: hidden;
+}
+#step .stepInt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 33.3%;
+  height: 100px;
+  position: relative;
+}
+#step .stepInt.one::after {
+  content: "";
+  border-top: 100px solid transparent;
+  border-bottom: 100px solid transparent;
+  border-left: 59px solid #F9F9F9;
+  border-radius: 50%;
+  right: -32px;
+  position: absolute;
+  z-index: 10;
+}
+#step .stepInt.one,
+#step .stepInt.three {
+  background: #f9f9f9;
+}
+#step .stepInt.one {
+  border-radius: 0px 30px 30px 0px;
+}
+#step .stepInt.two {
+  background-color: #F3F2F2;
+}
+#step .stepInt.two::after {
+  content: "";
+  border-top: 100px solid transparent;
+  border-bottom: 100px solid transparent;
+  border-left: 59px solid #F3F2F2;
+  border-radius: 50%;
+  right: -32px;
+  position: absolute;
+  z-index: 10;
+}
+#step .stepInt.two .txtInt {
+  position: relative;
+  left: 10%;
+  z-index: 11;
+}
+#step .stepInt p.h5 {
+  border: 2px solid #2EA68D;
+  color: #2EA68D;
+  background-color: #FFF;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#step .stepInt .txt {
+  color: #6C6C6C;
+  font-size: 18px;
+  margin-bottom: 0;
+  font-weight: 300;
+}
+@media only screen and (min-width: 1024px) and (max-width: 1370px) {
+  #cardFix .title p.h4 {
+    font-size: 20px !important;
+    line-height: 30px !important;
+  }
+  #cardFix .title p.h6 {
+    font-size: 16px !important;
+  }
+  #cardFix ul.list li, #cardFix .total p.h6 {
+    font-size: 14px !important;
+  }
+  #cardFix {
+    right: 3% !important;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  #step,
+  .main-content .container.identificar .row.step .line {
+    width: 70%;
+  }
+  .main-content .container.identificar .row.step {
+    justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  #step .stepInt .txt {
+    font-size: 13px;
+    position: relative;
+    z-index: 20;
+  }
+  #step .stepInt p.h5 {
+    width: 23px;
+    height: 23px;
+    font-size: 13px;
+  }
+  #step .stepInt.two .txtInt {
+    left: 17%;
+  }
+  #step .stepInt.three {
+    position: relative;
+    left: 3%;
+  }
+  #step .stepInt.one::after {
+    right: -36px;
+  }
+  #step .stepInt.one {
+    width: 29% !important;
+  }
+  #step .stepInt.one .txtInt {
+    position: relative;
+    left: 8%;
+  }
+}

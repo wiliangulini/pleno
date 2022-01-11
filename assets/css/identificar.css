@@ -1,0 +1,273 @@
+footer {
+  background: transparent;
+}
+#step {
+  width: 68% !important;
+}
+body {
+  background-color: #FFF;
+}
+input.btn-gradient {
+  border: 0;
+  text-align: center;
+  color: #FFF;
+  cursor: pointer;
+}
+.main-content .container.identificar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main-content .container.identificar .row.step {
+  width: 100%;
+  margin-top: 6%;
+}
+.main-content .container.identificar .row.step .line {
+  background-color: #BF9E9E;
+  margin-top: 4%;
+  width: 60%;
+  height: 1px;
+}
+.main-content .container.identificar .row.cadastro .col-sm-8.col-md-8.col-lg-8.col-xl-8 form .title {
+  margin: 5% 0%;
+}
+.main-content .container.identificar .row.cadastro .col-sm-8.col-md-8.col-lg-8.col-xl-8 form .title p.h4,
+.main-content .container.identificar .row.cadastro .col-sm-8.col-md-8.col-lg-8.col-xl-8 form .title p.h6 {
+  color:#4B4B4B;
+}
+.main-content .container.identificar .row.cadastro .col-sm-8.col-md-8.col-lg-8.col-xl-8 form .title p.h4 {
+  font-size: 24px;
+  margin-bottom: 2%;
+}
+.main-content .container.identificar .row.cadastro .col-sm-8.col-md-8.col-lg-8.col-xl-8 form .title p.h6 {
+  font-size: 18px;
+  font-weight: 400;
+}
+.main-content .container.identificar .row.cadastro .col-sm-8.col-md-8.col-lg-8.col-xl-8 form .buttons {
+  display: flex;
+  margin-bottom: 5%;
+}
+.main-content .container.identificar .row.cadastro .col-sm-8.col-md-8.col-lg-8.col-xl-8 form .buttons a {
+  background: #FFFFFF;
+  box-shadow: 0px 0px 9px -1px rgba(0, 0, 0, 0.15);
+  border-radius: 6px;
+  width:25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  color: #777;
+  padding: 1.3%;
+}
+.main-content .container.identificar .row.cadastro .col-sm-8.col-md-8.col-lg-8.col-xl-8 form .buttons a img {
+  margin-right: 4%;
+}
+.main-content .container.identificar .row.cadastro .col-sm-8.col-md-8.col-lg-8.col-xl-8 form .buttons a.btn-google {
+  margin-right: 4%;
+}
+.main-content .container.identificar .row.cadastro .col-sm-8.col-md-8.col-lg-8.col-xl-8 form .inputs .control.one {
+  margin-bottom: 1.5%;
+}
+.main-content .container.identificar .row.cadastro .col-sm-8.col-md-8.col-lg-8.col-xl-8 form .inputs .control input[name="nome"],
+.main-content .container.identificar .row.cadastro .col-sm-8.col-md-8.col-lg-8.col-xl-8 form .inputs .control input[name="celular"] {
+  margin-right: 2%;
+}
+.main-content .container.identificar .row.cadastro .col-sm-8.col-md-8.col-lg-8.col-xl-8 form .inputs .control input {
+  border: 1px solid #E5E5E5;
+  box-sizing: border-box;
+  border-radius: 6px;
+  padding: 1.5% 2%;
+  font-size: 16px;
+  font-weight: 300;
+}
+.main-content .container.identificar .row.cadastro .col-sm-8.col-md-8.col-lg-8.col-xl-8 form .btn.confirm input.btn-gradient {
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.161);
+  border-radius: 6px;
+}
+.main-content .container.identificar .row.cadastro .col-sm-8.col-md-8.col-lg-8.col-xl-8 form .terms {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 4% 0;
+}
+.main-content .container.identificar .row.cadastro .col-sm-8.col-md-8.col-lg-8.col-xl-8 form .terms .termsInt {
+  color: #989898;
+  margin-bottom: 0;
+  margin-left: 2%;
+  width: 37%;
+}
+.main-content .container.identificar .row.cadastro .col-sm-8.col-md-8.col-lg-8.col-xl-8 form .terms label {
+  position: relative;
+  display: flex;
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+  margin-bottom: 0;
+}
+.main-content .container.identificar .row.cadastro .col-sm-8.col-md-8.col-lg-8.col-xl-8 form .terms label input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+.main-content .container.identificar .row.cadastro .col-sm-8.col-md-8.col-lg-8.col-xl-8 form .terms label .chek {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 25px;
+  height: 25px;
+  border: 1px solid #E5E5E5;
+  border-radius: 6px;
+  transition: all .25s ease-in;
+  background-color: #FFF;
+}
+.main-content .container.identificar .row.cadastro .col-sm-8.col-md-8.col-lg-8.col-xl-8 form .terms label input:checked ~ .chek {
+  background-color: #2EA68D;
+  border-color: #2EA68D;
+} 
+span.chek::after {
+  top: 3px;
+  left: 8px;
+  width: 8px;
+  height: 15px;
+  border: solid #FFF;
+  border-width: 0px 3px 3px 0px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  content: "";
+  position: absolute;
+  display: block;
+}
+.main-content .container.identificar .row.cadastro .col-sm-8.col-md-8.col-lg-8.col-xl-8 form .btn.confirm {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.main-content .container.identificar .row.cadastro .col-sm-8.col-md-8.col-lg-8.col-xl-8 form .btn.confirm input {
+  font-size: 20px;
+  width: 70%;
+  padding: 1%;
+  margin-bottom: 4%;
+}
+.main-content .container.identificar .row.cadastro .col-sm-8.col-md-8.col-lg-8.col-xl-8 form .btn.confirm p {
+  font-size: 18px;
+  width: 100%;
+  text-align: left;
+}
+.main-content .container.identificar .row.cadastro .col-sm-8.col-md-8.col-lg-8.col-xl-8 form .btn.confirm p a {
+  color: #248672;
+  margin-left: 3%;
+  cursor: pointer;
+}
+
+/* login */
+
+.main-content .container.identificar .row.cadastro.login .col-sm-8.col-md-8.col-lg-8.col-xl-8 form .inputs .control.one input {
+  margin-right: 2%;
+}
+.main-content .container.identificar .row.cadastro.login .col-sm-8.col-md-8.col-lg-8.col-xl-8 .line {
+  background-color: #BF9E9E;
+  margin-top: 4%;
+  width: 90%;
+  height: 1px;
+}
+/* end login */
+
+#mobLogo,
+#mobLogo1 {
+  display: none;
+}
+@media only screen and (min-width: 320px) and (max-width:767px) {
+  .main-content .container.identificar .row.step,
+  header,
+  .main-content .container.identificar .row.cadastro.login .col-sm-8.col-md-8.col-lg-8.col-xl-8 .line {
+    display: none;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width:768px) {
+  .main-content .container.identificar {
+    align-items: center;
+  }
+  #mobLogo,
+  #mobLogo1 {
+    display: flex;
+  }
+  .main-content .container.identificar .row.cadastro {
+    flex-direction: column-reverse;
+  }
+  .main-content .container.identificar .row.cadastro .col-sm-8.col-md-8.col-lg-8.col-xl-8 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #mobLogo, #login {
+    margin-top: 6%;
+  }
+  .main-content .container.identificar .row.cadastro .col-sm-8.col-md-8.col-lg-8.col-xl-8 form .title p.h4, .main-content .container.identificar .row.cadastro .col-sm-8.col-md-8.col-lg-8.col-xl-8 form .title p.h6 {
+    text-align: center;
+  }
+  .main-content .container.identificar .row.cadastro .col-sm-8.col-md-8.col-lg-8.col-xl-8 form .title p.h4 {
+    font-size: 18px;
+  }
+  .main-content .container.identificar .row.cadastro .col-sm-8.col-md-8.col-lg-8.col-xl-8 form .title p.h6 {
+    font-size: 14px;
+  }
+  .main-content .container.identificar .row.cadastro .col-sm-8.col-md-8.col-lg-8.col-xl-8 form .buttons a {
+    width: 48%;
+    font-size: 14px;
+    padding: 2.5%;
+  }
+  .main-content .container.identificar .row.cadastro .col-sm-8.col-md-8.col-lg-8.col-xl-8 form .buttons a img {
+    width: 18px !important;
+  }
+  .main-content .container.identificar .row.cadastro .col-sm-8.col-md-8.col-lg-8.col-xl-8 form .inputs .control input {
+    margin-right: 0 !important;
+    margin-bottom: 4%;
+    height: 45px;
+  }
+  .main-content .container.identificar .row.cadastro .col-sm-8.col-md-8.col-lg-8.col-xl-8 form .terms {
+    flex-direction: row-reverse;
+    padding-left: 5%;
+  }
+  .main-content .container.identificar .row.cadastro .col-sm-8.col-md-8.col-lg-8.col-xl-8 form .terms .termsInt {
+    font-size: 12px;
+  }
+  .main-content .container.identificar .row.cadastro .col-sm-8.col-md-8.col-lg-8.col-xl-8 form .inputs .control input,
+  .main-content .container.identificar .row.cadastro .col-sm-8.col-md-8.col-lg-8.col-xl-8 form .terms,
+  .main-content .container.identificar .row.cadastro .col-sm-8.col-md-8.col-lg-8.col-xl-8 form .terms .termsInt,
+  .main-content .container.identificar .row.cadastro .col-sm-8.col-md-8.col-lg-8.col-xl-8 form .btn.confirm {
+    width: 100%;
+  }
+  .main-content .container.identificar .row.cadastro .col-sm-8.col-md-8.col-lg-8.col-xl-8 form .btn.confirm {
+    align-items: center;
+  }
+  .main-content .container.identificar .row.cadastro .col-sm-8.col-md-8.col-lg-8.col-xl-8 form .terms {
+    padding: 0% 2% 0% 5%;
+  }
+  .main-content .container.identificar .row.cadastro .col-sm-8.col-md-8.col-lg-8.col-xl-8 form .btn.confirm p {
+    text-align: center;
+    font-size: 13px;
+  }
+  .main-content .container.identificar .row.cadastro .col-sm-8.col-md-8.col-lg-8.col-xl-8 form .btn.confirm p a {
+    margin-left: 1%;
+  }
+  .main-content .container.identificar .row.cadastro .col-sm-8.col-md-8.col-lg-8.col-xl-8 form .inputs .control input {
+    padding-left: 5%;
+  }
+  .main-content .container.identificar .row.cadastro .col-sm-8.col-md-8.col-lg-8.col-xl-8 form .btn.confirm input {
+    width: 80%;
+  }
+  footer .container-fluid .row {
+    margin-top: 10%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .main-content .container.identificar .row.cadastro {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+}

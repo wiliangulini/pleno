@@ -1,0 +1,256 @@
+
+#cardFix {
+  padding: 2%;
+  border: 1.32733px solid #C4C4C4 !important;
+  border-radius: 7.9px;
+  -webkit-border-radius: 7.9px;
+  -moz-border-radius: 7.9px;
+  -ms-border-radius: 7.9px;
+  -o-border-radius: 7.9px;
+  position: fixed;
+  z-index: 9999999999999999999999999999999999999;
+  background-color: #FFF;
+  width: 25%;
+  right: 12%;
+  top: 13.75%;
+}
+.break {
+  position: absolute !important;
+  bottom: 29.5% !important;
+  top: auto !important;
+}
+#cardFix .img {
+  background: #F7F4F4;
+  border-radius: 6.63664px 6.63664px 0px 0px;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: flex-end;
+  padding: 3% 5% 3%;
+}
+#cardFix .compra {
+  position: absolute;
+  background: #7CD063;
+  border-radius: 12px 12px 0px 0px;
+  padding: 2.5% 0%;
+  left: -3.8%;
+  top: 9%;
+  width: 63%;
+}
+#cardFix .compra img#seg {
+  width: 22px;
+  margin-right: 4%;
+}
+#cardFix .compra img#triangle {
+  position: absolute;
+  bottom: -35%;
+  left: 0;
+}
+#cardFix .compra p.h5 {
+  color: #FFF;
+  margin-bottom: 0;
+}
+#cardFix .title {
+  margin-top: 26%;
+}
+#cardFix .title p.h4 {
+  font-size: 23px;
+  color: #4b4b4b;
+  margin-bottom: 4%;
+  line-height: 35px;
+}
+#cardFix .title p.h4 a.green {
+  color: #248672;
+}
+#cardFix .title p.h6 {
+  font-weight: 400;
+  font-size: 18px;
+  color: #9C9A9A;
+  padding-right: 15%;
+  margin-bottom: 3%;
+}
+#cardFix ul.list {
+  padding-bottom: 4%;
+  border-bottom: 1.3px solid #DBDBDB;
+}
+#cardFix ul.list li {
+  color: #4b4b4b;
+  font-size: 18px;
+  margin-bottom: 3%;
+  font-weight: 400;
+}
+#cardFix .total .txt p.h4.green {
+  color: #48b19b;
+}
+#cardFix .total .txt p.h4 {
+  font-size: 24px;
+}
+#cardFix .total p.h6 {
+  color: #A19797;
+  font-size: 15px;
+  margin-bottom: 7%;
+  margin-top: 1%;
+}
+#cardFix .input {
+  position: relative;
+  width: 70%;
+  margin-bottom: 5%;
+}
+#cupom {
+  position: absolute;
+  top: 24%;
+  left: 5%;
+  width: 27px;
+}
+#cardFix .input input {
+  background: #FFFFFF;
+  box-shadow: 0px 0px 12.4375px -1.38194px rgb(0 0 0 / 15%);
+  border-radius: 6.90972px;
+  border: 0;
+  padding: 3% 0% 3% 19%;
+  font-size: 16px;
+  font-weight: 300;
+  font-style: italic;
+  width: 76%;
+}
+#cardFix .confirm {
+  display: none;
+}
+
+@media only screen and (min-width: 320px) and (max-width:768px) {
+  #continuar {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    font-size: 18px;
+  }
+  #cardFix .confirm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 6% 0%;
+  }
+  #cardFix .confirm a.btn-green {
+    width: 80%;
+    text-align: center;
+    padding: 2%;
+    font-weight: 500;
+    font-size: 18px;
+  }
+  #cardFix {
+    position: relative !important;
+    max-width: 90%;
+    width: 100% !important;
+    right: -5% !important;
+    margin-top: 7%;
+  }
+  #cardFix .title p.h4 {
+    font-size: 18px;
+    margin-top: 34%;
+    line-height: 27px;
+  }
+  #cardFix .title p.h6,
+  #cardFix ul.list li {
+    font-size: 14px;
+  }
+  #cardFix .total .txt p.h4 {
+    font-size: 18px;
+  }
+  #cardFix .total p.h6 {
+    font-size: 13px;
+  }
+  #cardFix .compra img#seg {
+    width: 16px;
+  }
+  #cardFix .compra {
+    height: 39px;
+  }
+  #cardFix {
+    padding: 4%;
+  }
+  #cardFix .compra p.h5 {
+    font-size: 13px;
+  }
+  #cardFix .img {
+    padding: 3% 2% 3%;
+  }
+  #cardFix .input {
+    width: 90%;
+  }
+  #cardFix .input input {
+    font-size: 14px;
+  }
+  #cupom {
+    top: 16%;
+  }
+  #cadastro,
+  .main-content .container.identificar .row.cadastro .col-sm-8.col-md-8.col-lg-8.col-xl-8 {
+    display: none;
+  }
+}
+@media only screen and (min-width: 400px) and (max-width: 500px) {
+  #cardFix .title p.h4 {
+    margin-top: 30%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  header {
+    display: none !important;
+  }
+  #cardFix {
+    flex: 0 0 70%;
+    max-width: 70%;
+    right: 0 !important;
+    margin-top: 5% !important;
+  }
+  #cardFix .title {
+    margin-top: 0;
+  }
+  #cardFix .title p.h4 {
+    margin-top: 24%;
+  }
+  #cupom {
+    top: 23% !important;
+  }
+  #cardFix .input input {
+    padding: 3% 0% 3% 15% !important;
+    font-size: 16px !important;
+  }
+  #cardFix .title p.h4, #cardFix .total .txt p.h4 {
+    font-size: 22px !important;
+  }
+  #cardFix .title p.h6, #cardFix ul.list li {
+    font-size: 17px !important;
+  }
+  #cardFix .total p.h6 {
+    font-size: 15px !important;
+  }
+  #cardFix .compra {
+    width: 50% !important;
+  }
+  #cardFix .img {
+    padding: 3% 5% 3% !important;
+  }
+  #cardFix .compra p.h5 {
+    font-size: 16px !important;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1550px) {
+  #cardFix ul.list li {
+    font-size: 16px !important;
+  }
+}
+
+@media only screen and (min-width: 1371px) and (max-width: 1670px) {
+  #cardFix {
+    right: 10% !important;
+  }
+  #cardFix .input input {
+    width: 85%;
+  }
+}

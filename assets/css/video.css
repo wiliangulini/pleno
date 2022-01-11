@@ -1,0 +1,269 @@
+/* novas alterações */
+#microZ {
+    display: none;
+}
+#imgVideoZ {
+    display: none;
+}
+.modal-open .modal {
+    padding-right: 0px !important;
+}
+body .bottom img.d-flex.phoneRed {
+    margin-bottom: 15px;
+    margin-right: 8px;
+}
+body .mid p.texto,
+body .mid p.h5 {
+    color: #fff;
+}
+body .mid .input.d-flex {
+    position: relative !important;
+}
+body .mid .input.d-flex input#txt {
+    width: 100%;
+    border: 1px solid #DDD;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 20px;
+    outline: 0;
+}
+body .mid {
+    background-color: #000;
+    padding: 20px;
+    border-radius: 6px;
+    position: absolute;
+    top: 40%;
+    left: 30px;
+}
+body .mid i {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    padding: 12px;
+    cursor: pointer;
+    color: #fff;
+}
+#copy {
+    position: absolute;
+    right: 10px;
+    top: 7px;
+}
+/* end novas alterações */
+
+.container-fluid.video .row .bottom picture.d-flex.phoneRed img {
+    margin-bottom: 13px;
+    width: 50px;
+}
+.container-fluid.video .row .top.d-flex.justify-content-between .msg.d-flex picture.pic,
+.container-fluid.video .row .top.d-flex.justify-content-between .msg.d-flex .dropdown {
+    width: 58px;
+    height: 58px;
+}
+.container-fluid.video .row .top.d-flex.justify-content-between .msg.d-flex .dropdown .dropdown-menu {
+    background-color: #212121 !important;
+    right: 0px !important;
+    left: auto !important;
+}
+.container-fluid.video .row .top.d-flex.justify-content-between .msg.d-flex .dropdown .dropdown-menu a, #modalCenter .modal-dialog.modal-dialog-centered .modal-content .modal-body p.h5 {
+    color: #FFF !important;
+}
+.container-fluid.video .row .top.d-flex.justify-content-between .msg.d-flex .dropdown .dropdown-menu a.dropdown-item.rel img {
+    margin-right: 5px !important;
+}
+.container-fluid.video .row .top.d-flex.justify-content-between .msg.d-flex .dropdown .dropdown-menu a.dropdown-item.den img {
+    margin-right: 10px !important;
+}
+.container-fluid.video .row .bottom #ExemploModalCentralizado .modal-dialog.modal-dialog-centered #black.modal-content,
+.container-fluid.video .row .bottom #modalCenter .modal-dialog.modal-dialog-centered #black1.modal-content {
+    background-color: #212121 !important;
+    border: none !important;
+}
+.container-fluid.video .row .bottom #ExemploModalCentralizado .modal-dialog.modal-dialog-centered .modal-content .modal-body p.h5 {
+    margin-bottom: 15px !important;
+}
+#modalCenter .modal-dialog.modal-dialog-centered .modal-content .modal-body p.h5 {
+    margin-bottom: 12% !important;
+}
+.container-fluid.video .row .bottom #ExemploModalCentralizado .modal-dialog.modal-dialog-centered .modal-content .modal-body p {
+    text-align: center !important;
+}
+#ExemploModalCentralizado.modal.fade.show .modal-dialog.modal-dialog-centered .modal-content .modal-header,
+#ExemploModalCentralizado.modal.fade.show .modal-dialog.modal-dialog-centered .modal-content .modal-footer,
+#modalCenter.modal.fade.show .modal-dialog.modal-dialog-centered .modal-content .modal-header,
+#modalCenter.modal.fade.show .modal-dialog.modal-dialog-centered .modal-content .modal-footer {
+    border: none !important;
+}
+
+.container-fluid.video .row .bottom #modalCenter .modal-dialog.modal-dialog-centered .modal-content .modal-header button.close span,
+.container-fluid.video .row .bottom #ExemploModalCentralizado .modal-dialog.modal-dialog-centered .modal-content .modal-header button.close span,
+.container-fluid.video .row .bottom #ExemploModalCentralizado .modal-dialog.modal-dialog-centered .modal-content .modal-body p.h5 {
+    color: #FFF !important;
+}
+/* avaliar */
+#altcontainer form {
+    background-color: #212121;
+}
+#black.modal-body p {
+    color: #000;
+}
+.container-fluid.video, body {
+    height: 100vh;
+}
+.container-fluid.video {
+    background: black;
+    padding: 0px !important;
+}
+.OT_widget-container {
+    background-color: transparent !important;
+}
+.container-fluid.video .row {
+    height: inherit;
+    position: relative;
+}
+#label0, #label1, #label2, #label3, #label4 {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+}        
+#altcontainer {
+    background-color:#fff;
+    font-size:120%;
+    line-height:1.7em;
+}
+    /* The radiocontainer */
+.radiocontainer {
+    background-color:#f1f1f1;
+    display: block;
+    position: relative;
+    padding:10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    word-wrap: break-word;
+    text-align: center;
+    border-radius: 30px;
+}
+    
+    /* Hide the browser's default radio button */
+.radiocontainer input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+.checkedlabel {
+    background-color:#2196F3;
+    color: #FFF;
+}
+@media only screen and (min-width:768px) {
+    .radiocontainer:hover {
+        background-color: #2196F3;
+        color: #FFF;
+    }
+}   
+
+/* end avaliar*/
+#publisher {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 20px;
+    left: 20px;
+    z-index: 9;
+}
+.OT_publisher {
+    border-radius: 10px;
+}
+.top.d-flex.justify-content-end.w-100 {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 9;
+}
+.dropdown-menu.show {
+    left: -140px !important;
+}
+.modal-backdrop {
+    z-index: 1 !important;
+}
+.modal-backdrop.show {
+    opacity: 0;
+}
+#black.modal-content {
+    background: #FFF;
+    border-color: #000;
+    position: relative;
+    z-index: 10;
+    opacity: 1;
+}
+.bottom {
+    z-index: 9;
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+picture.d-flex.phoneRed {
+    width: 45px;
+    margin-right: 12px;
+    margin-bottom: 10px;
+}
+.container-fluid .row .mid {
+    padding: 10px;
+}
+.container-fluid .row .bottom {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: flex-end;
+    position: absolute;
+    bottom: 15px;
+}
+.container-fluid .row .mid p.h5 {
+    color: #FFF;
+}
+.container-fluid .row .mid .input.d-flex picture.d-flex {
+    position: relative;
+    right: 25px;
+    bottom: 4px;
+    cursor: pointer;
+    padding: 0px 10px 0px 0px;
+}
+.container-fluid .row .mid p.texto {
+    width: 75%;
+}
+.container-fluid .row .top.d-flex.justify-content-between {
+    width: 100%;
+}
+.container-fluid .row .mid {
+    width: 50%;
+}
+.container-fluid .row .top.d-flex.justify-content-between .photo_hero {
+    width: 125px;
+    height: 150px;
+    background-color: blue;
+    border-radius: 10px;
+}
+.OT_mirrored.OT_root.OT_publisher.OT_fit-mode-cover.OT_mini {
+    border-radius: 10px;
+}
+.container-fluid .row .mid a.btn.btn-green picture img {
+    margin-right: 10px;
+}
+@media only screen and (min-width:320px) and (max-width:768px) {
+    
+    .container-fluid.video, body {
+        height: 95vh;
+    }
+     .container-fluid .row .mid {
+        width: 100%;
+    }
+    .container-fluid .row .mid a.btn.btn-green {
+        width: 60% !important;
+    }
+}

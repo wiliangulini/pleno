@@ -1,0 +1,245 @@
+.select {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+tbody {
+  background-color: #f9f9f9;
+}
+.main-content {
+  margin-left: 250px;
+  margin-top: 70px;
+  background-color: #f9f9f9;
+  transition: all .35s ease-in;
+  -webkit-transition: all .35s ease-in;
+  -moz-transition: all .35s ease-in;
+  -ms-transition: all .35s ease-in;
+  -o-transition: all .35s ease-in;
+}
+.main-content .container-fluid .row {
+  padding: 1.5%;
+}
+.main-content .container-fluid .row .title {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1% 4% 1% 0.5%;
+  background-color: #f9f9f9;
+}
+.main-content .container-fluid .row .title .titleInt {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 50%;
+}
+.main-content .container-fluid .row .title .titleInt img {
+  margin-right: 2%;
+}
+.main-content .container-fluid .row .title .titleInt h1.h4 {
+  margin-bottom: 0;
+  color: #695D5D;
+  font-weight: 400;
+  font-size: 20px;
+}
+.main-content .container-fluid .row .title form {
+  display: flex;
+  justify-content: space-between;
+  width: 25%;
+}
+.main-content .container-fluid .row .title form input,
+.main-content .container-fluid .row .title form .ls-select.status {
+  background: #FFFFFF;
+  box-shadow: 0px 0px 5px rgb(0 0 0 / 25%);
+  border-radius: 2px;
+  border: 0;
+  height: 38px;
+  color: #888686;
+  font-size: 16px;
+  width: 49%;
+  padding: 1% 2% 1% 2%;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+}
+.main-content .container-fluid .row .table tbody tr th {
+  font-size: 16px;
+  color: #695D5D;
+}
+.main-content .container-fluid .row .card {
+  width: 100%;
+  box-shadow: none;
+  position: static;
+}
+.main-content .container-fluid .row .card table {
+  margin: 1.5% 0%;
+  cursor: pointer;
+}
+.main-content .container-fluid .row .card thead {
+  background: #f5f5f5;
+}
+.main-content .container-fluid .row .card table tr {
+  height: 52px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-content .container-fluid .row .card table tr.one,
+.main-content .container-fluid .row .card table tr.three {
+  background-color: #FFF;
+}
+.main-content .container-fluid .row .card table tr.two,
+.main-content .container-fluid .row .card table tr.four {
+  background-color: #f5f5f5;
+}
+.main-content .container-fluid .row .card table td,
+.main-content .container-fluid .row .card table th {
+  width: 25%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 0;
+  font-size: 16px;
+  color: #695D5D;
+}
+.main-content .container-fluid .row .card table td.ext {
+  position: absolute;
+  top: 52.8px;
+  background-color: #FFF;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 15%;
+  padding: 0;
+  z-index: 1000;
+}
+.main-content .container-fluid .row .card table td.ext p.txt {
+  padding: .75rem;
+  border-bottom: 1px solid #c6c6c6;
+  color: #2EA68D;
+  transition: all .35s ease-in;
+  -webkit-transition: all .35s ease-in;
+  -moz-transition: all .35s ease-in;
+  -ms-transition: all .35s ease-in;
+  -o-transition: all .35s ease-in;
+}
+.main-content .container-fluid .row .card table td.ext p.txt:hover {
+  background-color: #2EA68D;
+  color: #FFF;
+}
+.main-content .container-fluid .row .card table tbody tr td .st {
+  width: 19px;
+  height: 19px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin-right: 2%;
+}
+.main-content .container-fluid .row .card table tbody tr td .st.realizada {
+  background-color: #2EA68D;
+}
+.main-content .container-fluid .row .card table tbody tr td .st.marcada {
+  background-color: #38CB61;
+}
+.main-content .container-fluid .row .card table tbody tr td .st.remarcada {
+  background-color: #FBD757;
+}
+.main-content .container-fluid .row .card table tbody tr td .st.cancelada {
+  background-color: #D75B40;
+}
+.main-content .container-fluid .row .card .title form .ls-select.status {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.main-content .container-fluid .row .card .title form .ls-select.status .control {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.main-content .container-fluid .row .card table td.status .txt,
+.main-content .container-fluid .row .card .title form .ls-select.status .control p#value.txt {
+  margin-bottom: 0;
+}
+
+.main-content .container-fluid .row .title form .ls-select.status .down.val {
+  position: absolute;
+  top: 105%;
+  width: 100%;
+  background-color: #FFF;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  box-shadow: 0px 0px 2px rgb(0 0 0 / 30%);
+}
+.main-content .container-fluid .row .title form .ls-select.status .down.val label {
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 1px solid #DDD;
+}
+.main-content .container-fluid .row .card table td.ext p,
+.main-content .container-fluid .row .title form .ls-select.status .down.val label,
+.main-content .container-fluid .row .title form .ls-select.status .down.val label p {
+  margin-bottom: 0;
+}
+.main-content .container-fluid .row .title form .ls-select.status .down.val label p {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 10;
+  padding: 4%;
+}
+.main-content .container-fluid .row .title form .ls-select.status .down.val label input.radio {
+  opacity: 0;
+  position: absolute;
+}
+
+@media only screen and (min-width:320px) and (max-width:768px) {
+
+  .main-content {
+    margin-left: 0px;
+  }
+  .main-content .container-fluid .row .card table,
+  .main-content .container-fluid .row .title {
+    width: 200%;
+  }
+  .main-content .container-fluid .row .card {
+    overflow-x: scroll;
+    margin-top: 4%;
+  }
+  .main-content .container-fluid .row .card table td.status .txt {
+    width: 95%;
+  }
+  .main-content .container-fluid .row .card table tbody tr td .st {
+    width: 14px;
+    height: 14px;
+  }
+  .main-content .container-fluid .row .title form input, 
+  .main-content .container-fluid .row .title form .ls-select.status,
+  .main-content .container-fluid .row .card table td, 
+  .main-content .container-fluid .row .card table th {
+    font-size: 13px;
+  }
+  .main-content .container-fluid .row .title .titleInt img {
+    height: 26px;
+  }
+  .main-content .container-fluid .row .title .titleInt h1.h4 {
+    font-size: 18px;
+  }
+  .main-content .container-fluid .row .title form {
+    width: 60%;
+  }
+  .main-content .container-fluid .row .title {
+    padding-bottom: 4%;
+  }
+  .main-content .container-fluid .row .card table td.ext {
+    width: 25%;
+  }
+}

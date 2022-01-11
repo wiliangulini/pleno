@@ -1,0 +1,693 @@
+/* modal welcome */
+
+#exampleModalCenter .modal-dialog .modal-content .modal-body .card_two,
+#exampleModalCenter .modal-dialog .modal-content .modal-body .card_three,
+#exampleModalCenter .modal-dialog .modal-content .modal-body .card_four,
+#exampleModalCenter .modal-dialog .modal-content .modal-body .card_five,
+#exampleModalCenter .modal-dialog .modal-content .modal-body .card_six {
+    display: none;
+    flex-direction: column;
+}
+#exampleModalCenter .modal-dialog .modal-content .modal-body .card p.h4,
+#exampleModalCenter .modal-dialog .modal-content .modal-body .card_two p.h4,
+#exampleModalCenter .modal-dialog .modal-content .modal-body .card_three p.h4 {
+    margin-bottom: 30px;
+}
+#exampleModalCenter .modal-dialog .modal-content .modal-body .card_five p.h4.five,
+#exampleModalCenter .modal-dialog .modal-content .modal-body .card_four p.h4 {
+    margin-bottom: 15px;
+}
+#exampleModalCenter .modal-dialog .modal-content .modal-body .card a.btn.btn-blue,
+#exampleModalCenter .modal-dialog .modal-content .modal-body .card_two a.btn.btn-blue,
+#exampleModalCenter .modal-dialog .modal-content .modal-body .card_three a.btn.btn-blue,
+#exampleModalCenter .modal-dialog .modal-content .modal-body .card_four a.btn.btn-blue,
+#exampleModalCenter .modal-dialog .modal-content .modal-body .card_five a.btn.btn-blue,
+#card_six a.btn.btn-rosa {
+    margin-top: 4%;
+}
+#exampleModalCenter .modal-dialog .modal-content .modal-body p.txtgreen {
+    color: #00DB16;
+}
+strong.green,
+#exampleModalCenter .modal-dialog .modal-content .modal-body p.green {
+    background-color: #D5FFD9;
+    font-weight: bold;
+    color: #00DB16;
+    padding: 10px;
+    width: 55%;
+    border-radius: 5px;
+}
+#exampleModalCenter .modal-dialog .modal-content .modal-body .card_four p.h4.four {
+    margin-bottom: 10px;
+}
+#exampleModalCenter .modal-dialog .modal-content .modal-body .card_four .help,
+#exampleModalCenter .modal-dialog .modal-content .modal-body .card_five .help {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#exampleModalCenter .modal-dialog .modal-content .modal-body .card_four .help.one .audio p.second,
+#exampleModalCenter .modal-dialog .modal-content .modal-body .card_four .help.two .audio p.second,
+#exampleModalCenter .modal-dialog .modal-content .modal-body .card_four .help.three .audio p.second,
+#exampleModalCenter .modal-dialog .modal-content .modal-body .card_four .help.four .audio p.second {
+    margin-bottom: 0;
+}
+#exampleModalCenter .modal-dialog .modal-content .modal-body .card_four .help.one,
+#exampleModalCenter .modal-dialog .modal-content .modal-body .card_four .help.two,
+#exampleModalCenter .modal-dialog .modal-content .modal-body .card_four .help.three,
+#exampleModalCenter .modal-dialog .modal-content .modal-body .card_four .help.four,
+#exampleModalCenter .modal-dialog .modal-content .modal-body .card_five .help.one,
+#exampleModalCenter .modal-dialog .modal-content .modal-body .card_five .help.two,
+#exampleModalCenter .modal-dialog .modal-content .modal-body .card_five .help.three,
+#exampleModalCenter .modal-dialog .modal-content .modal-body .card_five .help.four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 90%;
+    margin-bottom: 13px;
+}
+#exampleModalCenter .modal-dialog .modal-content .modal-body .card_four .help.one img,
+#exampleModalCenter .modal-dialog .modal-content .modal-body .card_four .help.two img,
+#exampleModalCenter .modal-dialog .modal-content .modal-body .card_four .help.three img,
+#exampleModalCenter .modal-dialog .modal-content .modal-body .card_four .help.four img,
+#exampleModalCenter .modal-dialog .modal-content .modal-body .card_five .help.one img,
+#exampleModalCenter .modal-dialog .modal-content .modal-body .card_five .help.two img,
+#exampleModalCenter .modal-dialog .modal-content .modal-body .card_five .help.three img,
+#exampleModalCenter .modal-dialog .modal-content .modal-body .card_five .help.four img {
+    margin-right: 15px;
+}
+#card_six {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+#card_six p.h6 {
+    text-align: center;
+}
+#card_six .help.four {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+#card_six .help.four p.h6 {
+    margin-bottom: 0;
+    text-align: left;
+}
+#card_six .help.four img {
+    width: 50px;
+    margin-right: 10px;
+}
+a.btn.btn-rosa {
+    background-color: #FF4D78 !important;
+    border: 2px solid #FF4D78 !important;
+    color: #FFF !important;
+    transition: all ease 0.5s !important;
+    padding: 10px 30px !important;
+}
+a.btn.btn-rosa:hover {
+    background-color: #FFF !important;
+    color: #FF4D78 !important;
+}
+#card_six p.green {
+    margin-top: 10px;
+}
+#exampleModalCenter .modal-dialog .modal-content .modal-footer {
+    display: none;
+}
+@media only screen and (min-width:320px) and (max-width:768px) {
+    strong.green, #exampleModalCenter .modal-dialog .modal-content .modal-body p.green {
+        width: 80% !important;
+    }
+    #exampleModalCenter .modal-dialog .modal-content .modal-body .card_four p.h4 {
+        margin-bottom: 10px;
+    }
+    strong.green {
+        padding: 5px;
+    }
+    #card_five p.txt {
+        line-height: 25px;
+    }
+}
+
+#exampleModalCenter .modal-dialog .modal-content .modal-body .points {
+    display: flex;
+    justify-content: center;
+    height: 20px;
+    width: 100%;
+    margin-top: 5%;
+}
+#exampleModalCenter .modal-dialog .modal-content .modal-body .points .p {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    margin-right: 7px;
+}
+.normal {
+    background-color: #DDD;
+}
+.mark {
+    background-color: grey;
+}
+/* end modal*/
+
+#layout-wrapper .main-content .page-content .container-fluid .row .col-xl-8 .card.desktop div.c-1 div.text a.btn.btn-white.video {
+    margin-top: 8px;
+}
+
+#layout-wrapper .main-content .page-content .container-fluid .row .col-xl-8 .card.desktop div.c-1 div.text a.btn.btn-white.video  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70% !important;
+    display: none;
+}
+#layout-wrapper .main-content .page-content .container-fluid .row .col-xl-8 .card.desktop.mobile .c-1 .text a.btn.btn-white.video i {
+    margin-left: 10px;
+}
+.introjs-tooltip.introjs-bottom-middle-aligned {
+    right: 0;
+}
+.introjs-arrow.top-middle {
+    left: 90%;
+}
+#greyTag {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#layout-wrapper .main-content .page-content .container-fluid .row .col-xl-8 .card.desktop .c-2 .value p.strong strong u {
+    text-decoration: none !important;
+}
+.main-content .page-content .container-fluid .row .col-xl-4 .card .card-body .row .col-lg-12 .l1 .np {
+    width: 55% !important;
+    overflow: hidden;
+}
+.main-content .page-content .container-fluid .row .col-xl-8 .button.d-flex.justify-content-center a.btn.btn-blue {
+    width: 30%;
+}
+#colorGreen{
+    max-width: 10px;
+    min-width: 10px;
+    max-height: 10px;
+    min-height: 10px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background-color: #31D372;
+  }
+  #colorRed{
+    max-width: 10px;
+    min-width: 10px;
+    max-height: 10px;
+    min-height: 10px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background-color: #F46A6A;
+  }
+  .main-content .page-content .container-fluid .row .col-xl-8 .card.desktop .c-1 .text .line h3 {
+    margin-bottom: 0;
+    text-align: center;
+  }
+  .main-content .page-content .container-fluid .row .col-xl-8 .card.desktop .c-1 .text .line {
+      margin-bottom: 5px;
+  }
+a.btn-white {
+    background-color: #FFF !important;
+    padding: 4px 0px !important;
+    width: 50% !important;
+}
+a.btn-white:hover,
+a.btn-blue:hover {
+    transition: all .5s ease-in !important;
+}
+a.btn-blue:hover {
+    background-color: #FFF !important;
+}
+a.btn-blue:hover,
+a.btn-white,
+.main-content .page-content .container-fluid .row .col-xl-8 .card .c-2 .value p.strong {
+    color: #2f90ff !important;
+}
+.main-content .page-content .row .col-xl-4 .card.overflow-hidden .card-body.pt-0 .row .col-sm-8 .pt-4 .mt-4 a.btn.btn-primary,
+a.btn-blue:hover,
+a.btn-white:hover,
+a.btn-white,
+a.btn-blue {
+    border: 2px solid #2f90ff !important;
+}
+.vertical-collpsed .navbar-brand-box {
+    padding: 0 !important;
+}
+.main-content .page-content .row .col-xl-4 .card.overflow-hidden .bg-soft-primary .row,
+a.btn-white:hover,
+a.btn-blue,
+html body #layout-wrapper .main-content .page-content .container-fluid .row .col-xl-8 .card.search form .input-group.mb-3 button.btn.btn-outline-secondary,
+.dropdown-item:focus, .dropdown-item:hover {
+    background-color: #2f90ff !important;
+}
+html body #layout-wrapper .main-content .page-content .container-fluid .row .col-xl-4 .card.overflow-hidden .bg-soft-primary .row .col-7 .text-primary.p-3.welcome h5.text-primary,
+html body #layout-wrapper .main-content .page-content .container-fluid .row .col-xl-4 .card.overflow-hidden .bg-soft-primary .row .col-7 .text-primary.p-3.welcome p,
+a.btn-white:hover,
+a.btn-blue,
+html body #layout-wrapper .main-content .page-content .container-fluid .row .col-xl-8 .card.search form .input-group.mb-3 button.btn.btn-outline-secondary,
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #FFF !important;
+}
+html body #layout-wrapper .main-content .page-content .container-fluid .row .col-xl-4 .card .card-body .row .col-lg-12,
+.main-content .page-content .row .col-xl-8 .card .text-primary p,
+.main-content .page-content .row .col-xl-8 .card.search form .input-group.mb-3 .input-group-prepend .dropdown-menu,
+.main-content .page-content .row .col-xl-8 .main-content .page-content .row .col-xl-8 div.card div.value {
+    text-align: center !important;
+}
+html body #layout-wrapper .main-content .page-content .container-fluid .row .col-xl-4 .card.overflow-hidden .card-body .row .col-sm-4 .avatar-md.profile-user-wid img.img-thumbnail.rounded-circle {
+    width:72px !important;
+    height:72px !important;
+    border-radius: 50% !important;
+}
+html body #layout-wrapper .main-content .page-content .container-fluid .row .col-xl-4 .card .card-body .row .col-lg-12 .l1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+html body #layout-wrapper .main-content .page-content .container-fluid .row .col-xl-4 .card .card-body .row .col-lg-12 .l1 picture img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+html body #layout-wrapper .main-content .page-content .container-fluid .row .col-xl-4 .card .card-body .row .col-lg-12 .l1 a.btn.btn-primary.btn-white {
+    align-items: center;
+}
+html body #layout-wrapper .main-content .page-content .container-fluid .row .col-xl-4 .card .card-body .row .col-lg-12 .l1 .dropdown {
+    width: 30% !important;
+}
+html body #layout-wrapper .main-content .page-content .container-fluid .row .col-xl-4 .card .card-body .row .col-lg-12 .l1 a.btn.btn-primary.btn-white {
+    height: 35px;
+}
+.main-content .page-content .row .col-xl-8 .card {
+    padding: 3.9% 0%;
+}
+.main-content .page-content .row .col-xl-8 .card .form-group,
+.main-content .page-content .row .col-xl-8 .card .c-2 .talk .foto,
+html body #layout-wrapper .main-content .page-content .container-fluid .row .col-xl-4 .card .card-body .row .col-lg-12 .l1 a.btn.btn-primary.btn-white {
+    display: flex;
+    justify-content: center;
+}
+html body #layout-wrapper .main-content .page-content .container-fluid .row .col-xl-4 .card.overflow-hidden .card-body.pt-0 .row .pt-4 .mt-4 {
+    padding-left: 10%;
+}
+.main-content .page-content .row .col-xl-8 .card .form-group select.form-control,
+.main-content .page-content .row .col-xl-8 .card .c-1,
+.main-content .page-content .row .col-xl-8 .card .c-2,
+.main-content .page-content .row .col-xl-8 .card .c-2 .talk .foto  {
+    width: 50%;
+}
+#layout-wrapper .main-content .page-content .container-fluid .row .col-xl-8 .card.desktop div.c-1 div.text a.btn.btn-white {
+    width: 60% !important;
+}
+.main-content .page-content .row .col-xl-8 .card .text-primary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}/*
+.main-content .page-content .row .col-xl-8 .card .text-primary p {
+    width: 70%;
+}*/
+.main-content .page-content .row .col-xl-8 .card .text-secondary p.green strong,
+.main-content .page-content .row .col-xl-8 .card .text-primary p {
+    color: #3d3d3d;
+}
+.main-content .page-content .row .col-xl-8 .card .text-secondary p.green {
+    color: #5ce593;
+}
+.main-content .page-content .row .col-xl-8 .card {
+    display: flex;
+    flex-direction: row;
+}
+div.main-content div.page-content div.container-fluid div.row div.col-xl-8 div.card.search form div.ls-custom-select {
+    margin-bottom: 20px;
+}
+div.main-content div.page-content div.container-fluid div.row div.col-xl-8 div.card.search form div.ls-custom-select select.ls-select {
+    border: 1px solid #DDD;
+}
+#layout-wrapper .main-content .page-content .container-fluid .row .col-xl-8 .card.desktop.mobile {
+    display: none;
+}
+.main-content .page-content .row .col-xl-8 .card.search {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.main-content .page-content .row .col-xl-8 .card .c-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.main-content .page-content .row .col-xl-8 .card .c-1,
+.main-content .page-content .row .col-xl-8 .card .c-2 {
+    width: 50%;
+}
+.main-content .page-content .row .col-xl-8 .card .c-2 .talk {
+    display: flex;
+}
+.main-content .page-content .row .col-xl-8 .card .c-2 .talk p {
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+.main-content .page-content .row .col-xl-8 .card .c-2 .talk picture {
+    width: 50px;
+}
+.main-content .page-content .container-fluid .row .col-xl-8 .card .c-2 p.c2-p2 {
+    margin: 10px 0px 20px 0px !important;
+    padding: 0% 15% 0% 0% !important;
+}
+.main-content .page-content .row .col-xl-8 div.card div.theme div.theme_one.d-flex,
+.main-content .page-content .row .col-xl-8 .card .form-group,
+.main-content .page-content .row .col-xl-8 div.card picture img,
+.main-content .page-content .row .col-xl-8 .card.search form .input-group.mb-3 .input-group-prepend .dropdown-menu,
+html body #layout-wrapper .main-content .page-content .container-fluid .row .col-xl-4 .card .card-body .row .col-lg-12 .l1 a.btn.btn-primary.btn-white {
+    width: 100% !important;
+}
+div#editar, div#editar1, div#editar2, div#editar3 {
+    left: -120px !important;
+}
+.main-content .page-content .row .col-xl-8 div.card picture.avatar img {
+    border-radius: 50%;
+    width: 140px !important;
+    height: 140px !important;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+.main-content .page-content .row .col-xl-8 div.card div.text,
+.main-content .page-content .row .col-xl-8 div.card div.theme {
+    padding: 0% 7%;
+}
+.main-content .page-content .row .col-xl-8 div.card .c-1 div.theme {
+    margin-top: 15px;
+}
+.main-content .page-content .row .col-xl-8 div.card picture.avatar {
+    padding: 0% 9%;
+}
+.main-content .page-content .row .col-xl-8 div.card .c-1 .text small picture img {
+    width: 30% !important;
+}
+.main-content .page-content .row .col-xl-8 div.card div.theme div.theme_one.d-flex p.p1 {
+    margin-right: 7px;
+}
+.main-content .page-content .row .col-xl-8 div.card div.buttons {
+    margin-bottom: 7%;
+}
+.main-content .page-content .row .col-xl-8 div.card div.buttons a.btn.btn-primary {
+    background: #345f93;
+    border: 2px solid #345f93;
+}
+.main-content .page-content .row .col-xl-8 div.card div.buttons a.btn.btn-primary:hover {
+    color: #345f93;
+    background-color: #FFF;
+    transition: all .5s ease-in;
+}
+.main-content .page-content .row .col-xl-8 div.card div.buttons a.btn.btn-blue {
+    margin-bottom: 3%;
+}
+.main-content .page-content .row .col-xl-8 div.card div.buttons a.btn.btn-blue,
+.main-content .page-content .row .col-xl-8 div.card div.buttons a.btn.btn-primary {
+    width: 80%;
+}
+.main-content .page-content .row .col-xl-8 .main-content .page-content .row .col-xl-8 div.card div.value {
+    padding: 15px 0px;
+}
+.main-content .page-content .row .col-xl-8 .main-content .page-content .row .col-xl-8 div.card div.value p,
+.main-content .page-content .row .col-xl-8 .main-content .page-content .row .col-xl-8 div.card div.theme div.theme_one.d-flex p,
+.main-content .page-content .row .col-xl-8 .card .c-2 .talk p,
+html body #layout-wrapper .main-content .page-content .container-fluid .row .col-xl-4 .card .card-body .row .col-lg-12 .l1 .np p {
+    margin: 0 !important;
+}
+.main-content .page-content .row .col-xl-8 div.card div.theme div.theme_one.d-flex p {
+    color: #FFF;
+    background-color: #A8A8A8;
+    border-radius: 30px;
+    padding: 0 4%;
+}
+#layout-wrapper .main-content .page-content .container-fluid .row.justify-content-center .col-xl-8 .card.mobile {
+    display: none;
+}
+#layout-wrapper .main-content .page-content .container-fluid .row .col-xl-8 .card.search form .ls-custom-select.d-flex select.ls-select {
+    width: 320px !important;
+}
+
+@media only screen and (min-width:320px) and (max-width:768px) {
+    /*  -- card mobile -- */
+
+    #layout-wrapper .main-content .page-content .container-fluid .row .col-xl-8 .card.desktop {
+        display: none !important;
+    }
+    #layout-wrapper .main-content .page-content .container-fluid .row .col-xl-8 .card.desktop.mobile {
+        display: flex !important;
+        flex-direction: column;
+        align-items:center;
+    }
+    .main-content .page-content .container-fluid .row .col-xl-8 .card.desktop.mobile .c-1 .text hr {
+        background-color: #DDD;
+        margin: 0px 0px 20px 0px;
+    }
+    .main-content .page-content .container-fluid .row .col-xl-8 .card.desktop.mobile .c-1 .text .title.d-flex,
+    .main-content .page-content .container-fluid .row .col-xl-8 .card.desktop.mobile .c-1 .text .value p  {
+        margin-bottom: 8px;
+    }
+    .main-content .page-content .container-fluid .row .col-xl-8 .card.desktop.mobile .c-1 .text .title.d-flex h3,
+    .main-content .page-content .container-fluid .row .col-xl-8 .card.desktop.mobile .c-1 .text p.c2-p2,
+    .main-content .page-content .container-fluid .row .col-xl-8 .card.desktop.mobile .c-1 .text .value p {
+        text-align: center;
+    }
+    .main-content .page-content .container-fluid .row .col-xl-8 .card.desktop.mobile .c-1 .text .value p.strong strong {
+        color: #2f90ff !important;
+    }
+    .main-content .page-content .container-fluid .row .col-xl-8 .card.desktop.mobile .c-1 .text .buttons,
+    .main-content .page-content .container-fluid .row .col-xl-8 .card.desktop.mobile .c-1 .text .buttons a,
+    .main-content .page-content .container-fluid .row .col-xl-8 .card.desktop.mobile .c-1 .text .theme,
+    .main-content .page-content .container-fluid .row .col-xl-8 .card.desktop.mobile .c-1 .text hr {
+        width: 100%;
+    }
+    .main-content .page-content .container-fluid .row .col-xl-8 .card.desktop.mobile .c-1 .text .theme {
+        margin-top: 0px !important;
+        padding: 0;
+    }
+    .main-content .page-content .container-fluid .row .col-xl-8 .card.desktop.mobile .c-1 .text picture.star.d-flex.justify-content-center img {
+        width: 80% !important;
+    }
+    .main-content .page-content .container-fluid .row .col-xl-8 .card.desktop.mobile .c-1 .text p.ava {
+        margin-bottom: 5px;
+    }
+    .main-content .page-content .container-fluid .row .col-xl-8 .card.desktop.mobile .c-1 .text picture.star.d-flex.justify-content-center {
+        margin-bottom: 20px;
+    }
+    .main-content .page-content .container-fluid .row .col-xl-8 .card.desktop.mobile .c-1 .text a.btn.btn-primary.btn-white {
+        margin: 0px 0px 10px;
+    }
+
+    /*  -- card mobile end-- */
+    .main-content .page-content .container-fluid .row .col-xl-8 .button.d-flex.justify-content-center a.btn.btn-blue {
+        width: 90%;
+        margin-bottom: 25px;
+    }
+    .main-content .page-content .container-fluid .row .col-xl-8 .card.desktop .c-1 .theme .theme_one.d-flex {
+        justify-content: space-around;
+    }
+    .main-content .page-content .container-fluid .row .col-xl-8 .card.search form {
+        width: 75% !important;
+    }
+    .main-content .page-content .row .col-xl-8 .card .c-1, .main-content .page-content .row .col-xl-8 .card .c-2,
+    #layout-wrapper .main-content .page-content .container-fluid .row .col-xl-8 .card.search form .ls-custom-select.d-flex select.ls-select {
+        width: 100% !important;
+    }
+    .main-content .page-content .row .col-xl-8 .card.desktop {
+        flex-direction: column;
+    }
+    .main-content .page-content .row .col-xl-8 .card.desktop .c-1 a {
+        display: flex;
+        justify-content: center;
+    }
+    .main-content .page-content .container-fluid .row .col-xl-8 div.card.desktop div.c-1 div.text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-content .page-content .container-fluid .row .col-xl-8 div.card.desktop div.c-1 div.text small,
+    .main-content .page-content .container-fluid .row .col-xl-8 div.card.desktop div.c-1 div.theme {
+        text-align: center;
+    }
+    .main-content .page-content .container-fluid .row .col-xl-8 div.card.desktop div.c-2 .talk {
+        display: flex;
+        justify-content: center;
+        display: none;
+    }
+    .main-content .page-content .container-fluid .row .col-xl-8 div.card.desktop div.c-2 .talk p {
+        width: 33% !important;
+    }
+    #layout-wrapper .main-content .page-content .container-fluid .row .col-xl-8 .card.desktop div.c-1 div.text a.btn.btn-white {
+        width: 90% !important;
+    }
+    .main-content .page-content .container-fluid .row .col-xl-8 .card .c-2 p.c2-p2 {
+        padding: 0% 5% !important;
+    }
+    .main-content .page-content .container-fluid .row .col-xl-8 .card .c-2 p.c2-p2,
+    #layout-wrapper .main-content .page-content .container-fluid .row.justify-content-center .col-xl-8 .card.mobile .avalia,
+    .main-content .page-content .row .col-xl-8 div.card div.buttons,
+    .main-content .page-content .container-fluid .row .col-xl-8 .card.desktop .c-2 .value {
+        text-align: center;
+    }
+    #layout-wrapper .main-content .page-content .container-fluid .row.justify-content-center .col-xl-8 .card.mobile {
+        display: flex;
+    }
+    #layout-wrapper .main-content .page-content .container-fluid .row.justify-content-center .col-xl-8 .card.mobile .avalia {
+        padding: 13% 0%;
+    }
+    #layout-wrapper .main-content .page-content .container-fluid .row.justify-content-center .col-xl-8 .card.mobile .avalia picture img {
+        width: 130px !important;
+    }
+    .main-content .page-content .container-fluid .row .col-xl-4,
+    .main-content .page-content .container-fluid .row .col-xl-8 {
+        padding: 0 !important;
+    }
+    .main-content .page-content .container-fluid .row .col-xl-4 .card.overflow-hidden .card-body.pt-0 .row .col-sm-4 {
+        width: 40% !important;
+    }
+    .main-content .page-content .container-fluid .row .col-xl-4 .card.overflow-hidden .card-body.pt-0 .row .col-sm-8 {
+        width: 60% !important;
+    }
+    @media only screen and (min-width:320px) and (max-width: 374px) {
+        .main-content .page-content .container-fluid .row .col-xl-4 .card .card-body {
+            padding: 10px;
+        }
+        html body #layout-wrapper .main-content .page-content .container-fluid .row .col-xl-4 .card.overflow-hidden .card-body.pt-0 .row .pt-4 .mt-4 {
+        padding-left: 0px !important;
+        }   
+        .main-content .page-content .container-fluid .row .col-xl-4 .card .card-body .row .col-lg-12 .l1 .dropdown.show .dropdown-menu.show {
+            left: -150px !important;
+        }
+        html body #layout-wrapper .main-content .page-content .container-fluid .row .col-xl-4 .card.overflow-hidden .card-body.pt-0 .row .pt-4 .row {
+            flex-direction: column;
+            align-items: center;
+        }
+        html body #layout-wrapper .main-content .page-content .container-fluid .row .col-xl-4 .card.overflow-hidden .card-body.pt-0 .row .pt-4 .row .col-6 {
+            max-width: 100%;
+            text-align:center;
+            margin-bottom: 15px;
+        }
+        #layout-wrapper .main-content .page-content .container-fluid .row.justify-content-center .col-xl-8 div.card div.buttons a.btn.btn-primary {
+            font-size: 15px !important;
+        }
+    }
+    @media only screen and (min-width:375px) and (max-width: 419px) {
+        .main-content .page-content .container-fluid .row .col-xl-4 .card .card-body .row .col-lg-12 .l1 .dropdown.show .dropdown-menu.show {
+            left: -133px !important;
+        }
+        html body #layout-wrapper .main-content .page-content .container-fluid .row .col-xl-4 .card.overflow-hidden .card-body.pt-0 .row .pt-4 .row .col-6 {
+            padding: 0;
+            text-align: center;
+        }
+        .main-content .page-content .container-fluid .row .col-xl-4 .card .card-body .row .col-lg-12 a.btn.btn-primary.btn-blue {
+            font-size: 15px;
+        }
+        .main-content .page-content .row .col-xl-8 .card .text-primary p {
+            width: 80%;
+        }
+    }
+    @media only screen and (min-width:420px) and (max-width: 500px) {
+        .main-content .page-content .container-fluid .row .col-xl-4 .card .card-body .row .col-lg-12 .l1 .dropdown.show .dropdown-menu.show {
+            left: -120px !important;
+        } 
+        html body #layout-wrapper .main-content .page-content .container-fluid .row .col-xl-4 .card.overflow-hidden .card-body.pt-0 .row .pt-4 .row .col-6 {
+            padding: 0;
+            text-align: center;
+        }
+        .main-content .page-content .row .col-xl-8 .card .text-primary p {
+            width: 80%;
+        }
+    }
+    /* card do anjo */
+
+
+    #layout-wrapper .main-content .page-content .container-fluid .row.justify-content-center .col-xl-8 .card {
+        display: flex;
+        flex-direction: column;
+    }
+    #layout-wrapper .main-content .page-content .container-fluid .row.justify-content-center .col-xl-8 div.card picture {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-right: 5px;
+    }
+    #layout-wrapper .main-content .page-content .container-fluid .row.justify-content-center .col-xl-8 div.card picture.avatar img {
+        border-radius: 50%;
+        width: 120px;
+        height: 120px;
+        object-fit: cover;
+        margin: 10% 0% 4% 0%;
+    }
+    #layout-wrapper .main-content .page-content .container-fluid .row.justify-content-center .col-xl-8 div.card div.text,
+    #layout-wrapper .main-content .page-content .container-fluid .row.justify-content-center .col-xl-8 div.card div.theme {
+        text-align: center;
+    }
+    #layout-wrapper .main-content .page-content .container-fluid .row.justify-content-center .col-xl-8 div.card div.text h3 {
+        margin-bottom: 15px;
+    }
+    #layout-wrapper .main-content .page-content .container-fluid .row.justify-content-center .col-xl-8 div.card div.text p {
+        padding: 0% 7%;
+    }
+    #layout-wrapper .main-content .page-content .container-fluid .row.justify-content-center .col-xl-8 div.card div.buttons,
+    #layout-wrapper .main-content .page-content .container-fluid .row.justify-content-center .col-xl-8 div.card div.theme {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #layout-wrapper .main-content .page-content .container-fluid .row.justify-content-center .col-xl-8 div.card div.theme div.theme_one.d-flex {
+        width: 100%;
+    }
+    #layout-wrapper .main-content .page-content .container-fluid .row.justify-content-center .col-xl-8 div.card div.buttons {
+        margin-bottom: 10%;
+        justify-content: center;
+    }
+    #layout-wrapper .main-content .page-content .container-fluid .row.justify-content-center .col-xl-8 div.card div.buttons a.btn.btn-blue {
+        margin-bottom: 3%;
+    }
+    #layout-wrapper .main-content .page-content .container-fluid .row.justify-content-center .col-xl-8 div.card div.buttons a.btn.btn-blue,
+    #layout-wrapper .main-content .page-content .container-fluid .row.justify-content-center .col-xl-8 div.card div.buttons a.btn.btn-primary {
+        width: 80%;
+    }    
+    #layout-wrapper .main-content .page-content .container-fluid .row.justify-content-center .col-xl-8 div.card div.buttons a.btn.btn-primary {
+        background-color: #345F93;
+        border-color: #345F93;
+    }
+    #layout-wrapper .main-content .page-content .container-fluid .row.justify-content-center .col-xl-8 div.card div.value {
+        text-align: center;
+        padding: 15px 0px;
+    }
+    #layout-wrapper .main-content .page-content .container-fluid .row.justify-content-center .col-xl-8 div.card div.value p,
+    #layout-wrapper .main-content .page-content .container-fluid .row.justify-content-center .col-xl-8 div.card div.theme div.theme_one.d-flex p {
+        margin: 0;
+    }
+    #layout-wrapper .main-content .page-content .container-fluid .row.justify-content-center .col-xl-8 div.card div.theme div.theme_one.d-flex {
+        justify-content: space-around;
+
+    }
+    #layout-wrapper .main-content .page-content .container-fluid .row.justify-content-center .col-xl-8 div.card div.theme div.theme_one.d-flex p,
+    #layout-wrapper .main-content .page-content .container-fluid .row.justify-content-center .col-xl-8 div.card div.theme p.rel {
+        color: #FFF;
+        background-color: #A8A8A8;
+        border-radius: 30px;
+        padding: 5px 12%;
+    }
+    #layout-wrapper .main-content .page-content .container-fluid .row.justify-content-center .col-xl-8 div.card div.theme p.rel {
+        margin: 10px 0px 0px 0px;
+    }
+}

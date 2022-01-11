@@ -1,0 +1,183 @@
+.main-content {
+  margin-left: 250px;
+  margin-top: 70px;
+  background-color: #f9f9f9;
+  transition: all .35s ease-in;
+  -webkit-transition: all .35s ease-in;
+  -moz-transition: all .35s ease-in;
+  -ms-transition: all .35s ease-in;
+  -o-transition: all .35s ease-in;
+  padding: 2%;
+}
+.main-content .container-fluid .row .title .titleInt h1.h4 {
+  margin-bottom: 0;
+  color: #6F6C6C;
+  font-weight: 400;
+  font-size: 20px;
+}
+span.green {
+  color: #2EA68D;
+  margin-left: 1%;
+}
+#upload {
+  display: none;
+}
+#img {
+  object-fit: cover;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.main-content .container-fluid .row {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.main-content .container-fluid .row .title {
+  width: 100%;
+}
+.main-content .container-fluid .row .title .titleInt {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 1%;
+}
+.main-content .container-fluid .row .title .titleInt img {
+  margin-right: 1%;
+}
+.main-content .container-fluid .row .card {
+  width: 100%;
+  padding: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-content .container-fluid .row .card form#alterafoto {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main-content .container-fluid .row .card form#alterafoto .photo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main-content .container-fluid .row .card form#alterafoto .photo span {
+  font-size: 12px;
+  margin-top: 4%;
+  color: #786666;
+  font-weight: 400;
+}
+.main-content .container-fluid .row .card form#alterafoto .photo .name p.h6 {
+  font-size: 16px;
+  color: #786666;
+  font-weight: 400;
+  margin: 10% 0% 14%;
+}
+.main-content .container-fluid .row .card form#alterafoto .inputs label {
+  width: 49%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.main-content .container-fluid .row .card form#alterafoto .inputs label p {
+  margin-bottom: 3px;
+  padding-left: 3%;
+  color: #919594;
+}
+.main-content .container-fluid .row .card form#alterafoto .inputs label input {
+  border:  1px solid #919594;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+  height: 45px;
+  padding: 2% 4%;
+  width: 100%;
+}
+.main-content .container-fluid .row .card form#alterafoto .bottom,
+.main-content .container-fluid .row .card form#alterafoto .inputs,
+.main-content .container-fluid .row .card form#alterafoto .inputs .d-flex.align-items-center.justify-content-between {
+  width: 100%;
+}
+.main-content .container-fluid .row .card form#alterafoto .inputs {
+  margin-top: 2%;
+}
+.main-content .container-fluid .row .card form#alterafoto .inputs .d-flex.align-items-center.justify-content-between {
+  margin-bottom: 2%;
+}
+.main-content .container-fluid .row .card form#alterafoto .bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.main-content .container-fluid .row .card form#alterafoto .bottom .txt {
+  width: 80%;
+  color: #9A9A9A;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.main-content .container-fluid .row .card form#alterafoto .bottom .txt svg {
+  margin-right: 1%;
+}
+.main-content .container-fluid .row .card form#alterafoto .bottom input.btn-gradient {
+  box-shadow: 0px 2px 4px rgb(0 0 0 / 15%);
+  font-weight: 500;
+  font-size: 16px;
+  padding: 1% 3%;
+  color: #FFF;
+  border: 0;
+}
+.main-content footer .container-fluid .row {
+  flex-direction: row;
+}
+@media only screen and (min-width:320px) and (max-width: 768px) {
+  .main-content {
+    margin-left: 0;
+  }
+  .main-content .container-fluid .row .card form#alterafoto,
+  .main-content .container-fluid .row .card form#alterafoto .inputs label,
+  .main-content .container-fluid .row .card form#alterafoto .bottom .txt {
+    width: 100%;
+  }
+  .main-content .container-fluid .row .card form#alterafoto .inputs .d-flex.align-items-center.justify-content-between,
+  .main-content .container-fluid .row .card form#alterafoto .bottom {
+    flex-direction: column;
+  }
+  .main-content .container-fluid .row .card form#alterafoto .bottom {
+    align-items: center;
+    margin: 3% 0%;
+  }
+  .main-content .container-fluid .row .card form#alterafoto .bottom .txt {
+    justify-content: center;
+    margin-bottom: 3%;
+    font-size: 12px;
+  }
+  .main-content .container-fluid .row .card form#alterafoto .bottom input.btn-gradient {
+    width: 52%;
+  }
+  .main-content .container-fluid .row .card form#alterafoto .inputs .d-flex.align-items-center.justify-content-between {
+    margin-bottom: 0;
+  }
+  .main-content .container-fluid .row .card {
+    padding: 5% 4% 7%;
+  }
+  .main-content .container-fluid .row .title .titleInt img {
+    margin-right: 3%;
+  }
+}
+@media only screen and (min-width:320px) and (max-width:374px) {
+  .main-content .container-fluid .row .card form#alterafoto .bottom .txt {
+    font-size: 10.5px;
+  }
+  .main-content .container-fluid .row .card form#alterafoto .bottom input.btn-gradient {
+    width: 64%;
+  }
+}

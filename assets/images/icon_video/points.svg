@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="58" height="58" viewBox="0 0 58 58">
+  <defs>
+    <filter id="Elipse_4" x="0" y="0" width="58" height="58" filterUnits="userSpaceOnUse">
+      <feOffset dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_13" data-name="Grupo 13" transform="translate(-257 -589)">
+    <g transform="matrix(1, 0, 0, 1, 257, 589)" filter="url(#Elipse_4)">
+      <circle id="Elipse_4-2" data-name="Elipse 4" cx="20" cy="20" r="20" transform="translate(9 3)" fill="#313131"/>
+    </g>
+    <g id="Grupo_10" data-name="Grupo 10" transform="translate(0 -1)">
+      <circle id="Elipse_5" data-name="Elipse 5" cx="2" cy="2" r="2" transform="translate(284 605)" fill="#fff"/>
+      <circle id="Elipse_8" data-name="Elipse 8" cx="2" cy="2" r="2" transform="translate(284 611)" fill="#fff"/>
+      <circle id="Elipse_9" data-name="Elipse 9" cx="2" cy="2" r="2" transform="translate(284 617)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
